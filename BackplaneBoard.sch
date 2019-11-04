@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -519,6 +519,163 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ESC_to_Backplane_Connectors">
+<packages>
+<package name="ESC2BACKPLANE_WHOLE">
+<pad name="P$1" x="0" y="0" drill="1" rot="R90"/>
+<pad name="P$2" x="2.54" y="0" drill="1" rot="R90"/>
+<pad name="P$3" x="5.08" y="0" drill="1" rot="R90"/>
+<pad name="P$4" x="7.62" y="0" drill="1" rot="R90"/>
+<pad name="P$5" x="10.16" y="0" drill="1" rot="R90"/>
+<pad name="P$6" x="12.7" y="0" drill="1" rot="R90"/>
+<pad name="P$7" x="15.24" y="0" drill="1" rot="R90"/>
+<pad name="P$8" x="17.78" y="0" drill="1" rot="R90"/>
+<pad name="P$9" x="20.32" y="0" drill="1" rot="R90"/>
+<pad name="P$10" x="22.86" y="0" drill="1" rot="R90"/>
+<pad name="P$11" x="0" y="2.54" drill="1" rot="R90"/>
+<pad name="P$12" x="2.54" y="2.54" drill="1" rot="R90"/>
+<pad name="P$13" x="5.08" y="2.54" drill="1" rot="R90"/>
+<pad name="P$14" x="7.62" y="2.54" drill="1" rot="R90"/>
+<pad name="P$15" x="10.16" y="2.54" drill="1" rot="R90"/>
+<pad name="P$16" x="12.7" y="2.54" drill="1" rot="R90"/>
+<pad name="P$17" x="15.24" y="2.54" drill="1" rot="R90"/>
+<pad name="P$18" x="17.78" y="2.54" drill="1" rot="R90"/>
+<pad name="P$19" x="20.32" y="2.54" drill="1" rot="R90"/>
+<pad name="P$20" x="22.86" y="2.54" drill="1" rot="R90"/>
+<pad name="P$21" x="0" y="73.025" drill="1" rot="R90"/>
+<pad name="P$22" x="2.54" y="73.025" drill="1" rot="R90"/>
+<pad name="P$23" x="5.08" y="73.025" drill="1" rot="R90"/>
+<pad name="P$24" x="7.62" y="73.025" drill="1" rot="R90"/>
+<pad name="P$25" x="10.16" y="73.025" drill="1" rot="R90"/>
+<pad name="P$26" x="13.97" y="73.025" drill="1" rot="R90"/>
+<pad name="P$27" x="16.51" y="73.025" drill="1" rot="R90"/>
+<pad name="P$28" x="19.05" y="73.025" drill="1" rot="R90"/>
+<pad name="P$29" x="21.59" y="73.025" drill="1" rot="R90"/>
+<pad name="P$30" x="24.13" y="73.025" drill="1" rot="R90"/>
+<pad name="P$31" x="0" y="75.565" drill="1" rot="R90"/>
+<pad name="P$32" x="2.54" y="75.565" drill="1" rot="R90"/>
+<pad name="P$33" x="5.08" y="75.565" drill="1" rot="R90"/>
+<pad name="P$34" x="7.62" y="75.565" drill="1" rot="R90"/>
+<pad name="P$35" x="10.16" y="75.565" drill="1" rot="R90"/>
+<pad name="P$36" x="13.97" y="75.565" drill="1" rot="R90"/>
+<pad name="P$37" x="16.51" y="75.565" drill="1" rot="R90"/>
+<pad name="P$38" x="19.05" y="75.565" drill="1" rot="R90"/>
+<pad name="P$39" x="21.59" y="75.565" drill="1" rot="R90"/>
+<pad name="P$40" x="24.13" y="75.565" drill="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ESC2BACKPLANE_KEY">
+<wire x1="-7.62" y1="27.94" x2="10.16" y2="27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-27.94" x2="-7.62" y2="27.94" width="0.254" layer="94"/>
+<pin name="P$1" x="-12.7" y="25.4" length="middle"/>
+<pin name="P$2" x="-12.7" y="20.32" length="middle"/>
+<pin name="P$3" x="-12.7" y="15.24" length="middle"/>
+<pin name="P$4" x="-12.7" y="10.16" length="middle"/>
+<pin name="P$5" x="-12.7" y="5.08" length="middle"/>
+<pin name="P$6" x="-12.7" y="-5.08" length="middle"/>
+<pin name="P$7" x="-12.7" y="-10.16" length="middle"/>
+<pin name="P$8" x="-12.7" y="-15.24" length="middle"/>
+<pin name="P$9" x="-12.7" y="-20.32" length="middle"/>
+<pin name="P$10" x="-12.7" y="-25.4" length="middle"/>
+<pin name="P$11" x="15.24" y="25.4" length="middle" rot="R180"/>
+<pin name="P$12" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="P$13" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="P$14" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="P$15" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="P$16" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$17" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$18" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="P$19" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="P$20" x="15.24" y="-25.4" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ESC2BACKPLANE_LONG">
+<wire x1="-10.16" y1="22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-27.94" x2="-10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-27.94" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<pin name="P$1" x="-15.24" y="20.32" length="middle"/>
+<pin name="P$2" x="-15.24" y="15.24" length="middle"/>
+<pin name="P$3" x="-15.24" y="10.16" length="middle"/>
+<pin name="P$4" x="-15.24" y="5.08" length="middle"/>
+<pin name="P$5" x="-15.24" y="0" length="middle"/>
+<pin name="P$6" x="-15.24" y="-5.08" length="middle"/>
+<pin name="P$7" x="-15.24" y="-10.16" length="middle"/>
+<pin name="P$8" x="-15.24" y="-15.24" length="middle"/>
+<pin name="P$9" x="-15.24" y="-20.32" length="middle"/>
+<pin name="P$10" x="-15.24" y="-25.4" length="middle"/>
+<pin name="P$11" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="P$12" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="P$13" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="P$14" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="P$15" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="P$16" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$17" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$18" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="P$19" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="P$20" x="17.78" y="-25.4" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESC2BACKPLANE">
+<gates>
+<gate name="G$1" symbol="ESC2BACKPLANE_KEY" x="-27.94" y="0"/>
+<gate name="G$2" symbol="ESC2BACKPLANE_LONG" x="33.02" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ESC2BACKPLANE_WHOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$21"/>
+<connect gate="G$1" pin="P$10" pad="P$30"/>
+<connect gate="G$1" pin="P$11" pad="P$31"/>
+<connect gate="G$1" pin="P$12" pad="P$32"/>
+<connect gate="G$1" pin="P$13" pad="P$33"/>
+<connect gate="G$1" pin="P$14" pad="P$34"/>
+<connect gate="G$1" pin="P$15" pad="P$35"/>
+<connect gate="G$1" pin="P$16" pad="P$36"/>
+<connect gate="G$1" pin="P$17" pad="P$37"/>
+<connect gate="G$1" pin="P$18" pad="P$38"/>
+<connect gate="G$1" pin="P$19" pad="P$39"/>
+<connect gate="G$1" pin="P$2" pad="P$22"/>
+<connect gate="G$1" pin="P$20" pad="P$40"/>
+<connect gate="G$1" pin="P$3" pad="P$23"/>
+<connect gate="G$1" pin="P$4" pad="P$24"/>
+<connect gate="G$1" pin="P$5" pad="P$25"/>
+<connect gate="G$1" pin="P$6" pad="P$26"/>
+<connect gate="G$1" pin="P$7" pad="P$27"/>
+<connect gate="G$1" pin="P$8" pad="P$28"/>
+<connect gate="G$1" pin="P$9" pad="P$29"/>
+<connect gate="G$2" pin="P$1" pad="P$1"/>
+<connect gate="G$2" pin="P$10" pad="P$10"/>
+<connect gate="G$2" pin="P$11" pad="P$11"/>
+<connect gate="G$2" pin="P$12" pad="P$12"/>
+<connect gate="G$2" pin="P$13" pad="P$13"/>
+<connect gate="G$2" pin="P$14" pad="P$14"/>
+<connect gate="G$2" pin="P$15" pad="P$15"/>
+<connect gate="G$2" pin="P$16" pad="P$16"/>
+<connect gate="G$2" pin="P$17" pad="P$17"/>
+<connect gate="G$2" pin="P$18" pad="P$18"/>
+<connect gate="G$2" pin="P$19" pad="P$19"/>
+<connect gate="G$2" pin="P$2" pad="P$2"/>
+<connect gate="G$2" pin="P$20" pad="P$20"/>
+<connect gate="G$2" pin="P$3" pad="P$3"/>
+<connect gate="G$2" pin="P$4" pad="P$4"/>
+<connect gate="G$2" pin="P$5" pad="P$5"/>
+<connect gate="G$2" pin="P$6" pad="P$6"/>
+<connect gate="G$2" pin="P$7" pad="P$7"/>
+<connect gate="G$2" pin="P$8" pad="P$8"/>
+<connect gate="G$2" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -532,6 +689,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="U$1" library="ET60S-02-24-02-X-VP-GP" deviceset="ET60S-02-24-02-X-VP-GP" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="U$2" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device=""/>
+<part name="U$3" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device=""/>
+<part name="U$4" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -556,6 +716,12 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="LAST_DATE_TIME" x="478.79" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="492.125" y="5.08" size="2.54" layer="94"/>
 </instance>
+<instance part="U$2" gate="G$1" x="289.56" y="134.62"/>
+<instance part="U$2" gate="G$2" x="335.28" y="137.16"/>
+<instance part="U$3" gate="G$1" x="414.02" y="134.62"/>
+<instance part="U$3" gate="G$2" x="459.74" y="137.16"/>
+<instance part="U$4" gate="G$1" x="317.5" y="45.72"/>
+<instance part="U$4" gate="G$2" x="370.84" y="48.26"/>
 </instances>
 <busses>
 </busses>
