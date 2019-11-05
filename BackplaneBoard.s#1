@@ -550,21 +550,21 @@ DIN A4, landscape with location and doc. field</description>
 <pad name="P$N" x="33.02" y="-1.27" drill="1" rot="R90"/>
 <pad name="P$AA" x="30.48" y="1.27" drill="1" rot="R90"/>
 <pad name="P$BB" x="33.02" y="1.27" drill="1" rot="R90"/>
-<pad name="P$3" x="5.08" y="31.75" drill="1" rot="R90"/>
-<pad name="P$4" x="7.62" y="31.75" drill="1" rot="R90"/>
-<pad name="P$5" x="10.16" y="31.75" drill="1" rot="R90"/>
-<pad name="P$6" x="12.7" y="31.75" drill="1" rot="R90"/>
-<pad name="P$7" x="15.24" y="31.75" drill="1" rot="R90"/>
+<pad name="P$3" x="6.35" y="31.75" drill="1" rot="R90"/>
+<pad name="P$4" x="8.89" y="31.75" drill="1" rot="R90"/>
+<pad name="P$5" x="11.43" y="31.75" drill="1" rot="R90"/>
+<pad name="P$6" x="13.97" y="31.75" drill="1" rot="R90"/>
+<pad name="P$7" x="16.51" y="31.75" drill="1" rot="R90"/>
 <pad name="P$8" x="19.05" y="31.75" drill="1" rot="R90"/>
 <pad name="P$9" x="21.59" y="31.75" drill="1" rot="R90"/>
 <pad name="P$10" x="24.13" y="31.75" drill="1" rot="R90"/>
 <pad name="P$11" x="26.67" y="31.75" drill="1" rot="R90"/>
 <pad name="P$12" x="29.21" y="31.75" drill="1" rot="R90"/>
-<pad name="P$17" x="5.08" y="34.29" drill="1" rot="R90"/>
-<pad name="P$18" x="7.62" y="34.29" drill="1" rot="R90"/>
-<pad name="P$19" x="10.16" y="34.29" drill="1" rot="R90"/>
-<pad name="P$20" x="12.7" y="34.29" drill="1" rot="R90"/>
-<pad name="P$21" x="15.24" y="34.29" drill="1" rot="R90"/>
+<pad name="P$17" x="6.35" y="34.29" drill="1" rot="R90"/>
+<pad name="P$18" x="8.89" y="34.29" drill="1" rot="R90"/>
+<pad name="P$19" x="11.43" y="34.29" drill="1" rot="R90"/>
+<pad name="P$20" x="13.97" y="34.29" drill="1" rot="R90"/>
+<pad name="P$21" x="16.51" y="34.29" drill="1" rot="R90"/>
 <pad name="P$22" x="19.05" y="34.29" drill="1" rot="R90"/>
 <pad name="P$23" x="21.59" y="34.29" drill="1" rot="R90"/>
 <pad name="P$24" x="24.13" y="34.29" drill="1" rot="R90"/>
@@ -572,48 +572,44 @@ DIN A4, landscape with location and doc. field</description>
 <pad name="P$26" x="29.21" y="34.29" drill="1" rot="R90"/>
 <pad name="P$13" x="31.75" y="31.75" drill="1" rot="R90"/>
 <pad name="P$27" x="31.75" y="34.29" drill="1" rot="R90"/>
-<pad name="P$2" x="2.54" y="31.75" drill="1" rot="R90"/>
-<pad name="P$16" x="2.54" y="34.29" drill="1" rot="R90"/>
-<pad name="P$1" x="0" y="31.75" drill="1" rot="R90"/>
-<pad name="P$15" x="0" y="34.29" drill="1" rot="R90"/>
-<pad name="P$14" x="34.29" y="31.75" drill="1" rot="R90"/>
-<pad name="P$28" x="34.29" y="34.29" drill="1" rot="R90"/>
+<pad name="P$2" x="3.81" y="31.75" drill="1" rot="R90"/>
+<pad name="P$16" x="3.81" y="34.29" drill="1" rot="R90"/>
+<pad name="P$1" x="1.27" y="31.75" drill="1" rot="R90"/>
+<pad name="P$15" x="1.27" y="34.29" drill="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
 <symbol name="ESC2BACKPLANE_KEY">
-<wire x1="-7.62" y1="27.94" x2="10.16" y2="27.94" width="0.254" layer="94"/>
-<wire x1="10.16" y1="27.94" x2="10.16" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-48.26" x2="-7.62" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-48.26" x2="-7.62" y2="27.94" width="0.254" layer="94"/>
-<pin name="P$1" x="-12.7" y="25.4" length="middle"/>
-<pin name="P$2" x="-12.7" y="20.32" length="middle"/>
-<pin name="P$3" x="-12.7" y="15.24" length="middle"/>
-<pin name="P$4" x="-12.7" y="10.16" length="middle"/>
-<pin name="P$5" x="-12.7" y="5.08" length="middle"/>
-<pin name="P$6" x="-12.7" y="0" length="middle"/>
-<pin name="P$7" x="-12.7" y="-5.08" length="middle"/>
-<pin name="P$8" x="-12.7" y="-15.24" length="middle"/>
-<pin name="P$9" x="-12.7" y="-20.32" length="middle"/>
-<pin name="P$10" x="-12.7" y="-25.4" length="middle"/>
-<pin name="P$11" x="-12.7" y="-30.48" length="middle"/>
-<pin name="P$12" x="-12.7" y="-35.56" length="middle"/>
-<pin name="P$13" x="-12.7" y="-40.64" length="middle"/>
-<pin name="P$14" x="-12.7" y="-45.72" length="middle"/>
-<pin name="P$15" x="15.24" y="25.4" length="middle" rot="R180"/>
-<pin name="P$16" x="15.24" y="20.32" length="middle" rot="R180"/>
-<pin name="P$17" x="15.24" y="15.24" length="middle" rot="R180"/>
-<pin name="P$18" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="P$19" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="P$20" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="P$21" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="P$22" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="P$23" x="15.24" y="-20.32" length="middle" rot="R180"/>
-<pin name="P$24" x="15.24" y="-25.4" length="middle" rot="R180"/>
-<pin name="P$25" x="15.24" y="-30.48" length="middle" rot="R180"/>
-<pin name="P$26" x="15.24" y="-35.56" length="middle" rot="R180"/>
-<pin name="P$27" x="15.24" y="-40.64" length="middle" rot="R180"/>
-<pin name="P$28" x="15.24" y="-45.72" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="30.48" x2="12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-35.56" x2="-10.16" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-35.56" x2="-10.16" y2="30.48" width="0.254" layer="94"/>
+<pin name="P$1" x="-15.24" y="27.94" length="middle"/>
+<pin name="P$2" x="-15.24" y="22.86" length="middle"/>
+<pin name="P$3" x="-15.24" y="17.78" length="middle"/>
+<pin name="P$4" x="-15.24" y="12.7" length="middle"/>
+<pin name="P$5" x="-15.24" y="7.62" length="middle"/>
+<pin name="P$6" x="-15.24" y="2.54" length="middle"/>
+<pin name="P$7" x="-15.24" y="-2.54" length="middle"/>
+<pin name="P$8" x="-15.24" y="-7.62" length="middle"/>
+<pin name="P$9" x="-15.24" y="-12.7" length="middle"/>
+<pin name="P$10" x="-15.24" y="-17.78" length="middle"/>
+<pin name="P$11" x="-15.24" y="-22.86" length="middle"/>
+<pin name="P$12" x="-15.24" y="-27.94" length="middle"/>
+<pin name="P$13" x="-15.24" y="-33.02" length="middle"/>
+<pin name="P$15" x="17.78" y="27.94" length="middle" rot="R180"/>
+<pin name="P$16" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="P$17" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="P$18" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="P$19" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="P$20" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="P$21" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$22" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$23" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="P$24" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="P$25" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="P$26" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="P$27" x="17.78" y="-33.02" length="middle" rot="R180"/>
 </symbol>
 <symbol name="ESC2BACKPLANE_LONG">
 <wire x1="-10.16" y1="33.02" x2="12.7" y2="33.02" width="0.254" layer="94"/>
@@ -653,8 +649,8 @@ DIN A4, landscape with location and doc. field</description>
 <devicesets>
 <deviceset name="ESC2BACKPLANE">
 <gates>
-<gate name="G$1" symbol="ESC2BACKPLANE_KEY" x="-27.94" y="7.62"/>
-<gate name="G$2" symbol="ESC2BACKPLANE_LONG" x="35.56" y="2.54"/>
+<gate name="G$1" symbol="ESC2BACKPLANE_KEY" x="-30.48" y="5.08"/>
+<gate name="G$2" symbol="ESC2BACKPLANE_LONG" x="22.86" y="5.08"/>
 </gates>
 <devices>
 <device name="" package="ESC2BACKPLANE_WHOLE">
@@ -664,7 +660,6 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="P$11" pad="P$11"/>
 <connect gate="G$1" pin="P$12" pad="P$12"/>
 <connect gate="G$1" pin="P$13" pad="P$13"/>
-<connect gate="G$1" pin="P$14" pad="P$14"/>
 <connect gate="G$1" pin="P$15" pad="P$15"/>
 <connect gate="G$1" pin="P$16" pad="P$16"/>
 <connect gate="G$1" pin="P$17" pad="P$17"/>
@@ -679,7 +674,6 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="P$25" pad="P$25"/>
 <connect gate="G$1" pin="P$26" pad="P$26"/>
 <connect gate="G$1" pin="P$27" pad="P$27"/>
-<connect gate="G$1" pin="P$28" pad="P$28"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 <connect gate="G$1" pin="P$5" pad="P$5"/>
