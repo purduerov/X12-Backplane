@@ -949,8 +949,8 @@ Please make sure your boards conform to these design rules.
 <polygon width="0.1524" layer="1">
 <vertex x="16.2814" y="50.6984"/>
 <vertex x="26.3398" y="40.64"/>
-<vertex x="121.031" y="40.64"/>
-<vertex x="134.1374" y="53.7464"/>
+<vertex x="126.5428" y="40.64"/>
+<vertex x="134.1374" y="48.2346"/>
 <vertex x="134.1374" y="58.0898"/>
 <vertex x="133.9342" y="58.0898"/>
 <vertex x="122.7074" y="58.0898"/>
@@ -958,8 +958,8 @@ Please make sure your boards conform to these design rules.
 <vertex x="122.7074" y="53.7718"/>
 <vertex x="122.7836" y="53.7718"/>
 <vertex x="120.2182" y="51.2064"/>
-<vertex x="25.4" y="51.2064"/>
-<vertex x="15.5956" y="61.0108"/>
+<vertex x="27.3812" y="51.2064"/>
+<vertex x="17.5768" y="61.0108"/>
 <vertex x="5.5626" y="61.0108"/>
 <vertex x="5.5626" y="50.6984"/>
 </polygon>
@@ -1001,10 +1001,10 @@ Please make sure your boards conform to these design rules.
 <vertex x="26.2636" y="42.3164"/>
 <vertex x="22.86" y="45.72"/>
 <vertex x="21.59" y="45.72"/>
-<vertex x="20.32" y="46.99"/>
-<vertex x="20.32" y="30.48"/>
-<vertex x="24.13" y="26.67"/>
-<vertex x="24.13" y="20.32"/>
+<vertex x="16.4084" y="50.9016"/>
+<vertex x="16.4084" y="31.3944"/>
+<vertex x="23.5204" y="24.2824"/>
+<vertex x="23.5204" y="20.32"/>
 </polygon>
 </signal>
 <signal name="+3V3">
