@@ -177,6 +177,16 @@
 <wire x1="0" y1="76.2" x2="0" y2="0" width="0" layer="20"/>
 <text x="67.2338" y="71.628" size="1.778" layer="25">CAN</text>
 <text x="56.4134" y="2.1082" size="1.778" layer="25">+5V</text>
+<text x="7.8232" y="62.5094" size="1.778" layer="25">+12V</text>
+<text x="7.493" y="12.065" size="1.778" layer="25">GND</text>
+<text x="50.8508" y="59.7408" size="1.778" layer="25">+12V</text>
+<text x="88.265" y="59.7408" size="1.778" layer="25">+12V</text>
+<text x="125.9332" y="59.7408" size="1.778" layer="25">+12V</text>
+<text x="103.9368" y="17.9578" size="1.778" layer="25">+12V</text>
+<text x="65.1002" y="17.9578" size="1.778" layer="25">+12V</text>
+<text x="64.262" y="33.401" size="1.778" layer="25">GND</text>
+<text x="63.8048" y="44.2214" size="1.778" layer="25">+12V</text>
+<text x="25.5778" y="18.0086" size="1.778" layer="25">+12V</text>
 </plain>
 <libraries>
 <library name="ET60S-02-24-02-X-VP-GP">
@@ -774,8 +784,8 @@ Please make sure your boards conform to these design rules.
 <polygon width="0.1524" layer="16">
 <vertex x="26" y="58"/>
 <vertex x="26" y="54"/>
-<vertex x="35" y="54"/>
-<vertex x="35" y="58"/>
+<vertex x="34.8984" y="54"/>
+<vertex x="34.8984" y="58"/>
 </polygon>
 <polygon width="0.1524" layer="16">
 <vertex x="64" y="58"/>
