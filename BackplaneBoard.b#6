@@ -961,19 +961,19 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$9" pad="2"/>
 <contactref element="U$9" pad="1"/>
 <polygon width="0.2" layer="1">
-<vertex x="46" y="58"/>
-<vertex x="58" y="58"/>
+<vertex x="45.873" y="58.2794"/>
+<vertex x="58" y="58.2794"/>
 <vertex x="58" y="41"/>
-<vertex x="46" y="41"/>
+<vertex x="45.873" y="41"/>
 </polygon>
 <polygon width="0.1524" layer="1">
 <vertex x="16.2814" y="50.6984"/>
 <vertex x="26.3398" y="40.64"/>
 <vertex x="126.5428" y="40.64"/>
 <vertex x="134.1374" y="48.2346"/>
-<vertex x="134.1374" y="58.0898"/>
-<vertex x="122.7074" y="58.0898"/>
-<vertex x="122.7074" y="53.7718"/>
+<vertex x="134.1374" y="58.2676"/>
+<vertex x="122.3772" y="58.2676"/>
+<vertex x="122.3772" y="53.7718"/>
 <vertex x="122.7836" y="53.7718"/>
 <vertex x="120.2182" y="51.2064"/>
 <vertex x="25.019" y="51.2064"/>
