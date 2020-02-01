@@ -455,6 +455,521 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
+<<<<<<< Updated upstream
+=======
+<signal name="GND">
+<contactref element="U$2" pad="P$J"/>
+<contactref element="U$2" pad="P$L"/>
+<contactref element="U$2" pad="P$M"/>
+<contactref element="U$2" pad="P$K"/>
+<contactref element="U$2" pad="P$N"/>
+<contactref element="U$2" pad="P$X"/>
+<contactref element="U$2" pad="P$Y"/>
+<contactref element="U$2" pad="P$Z"/>
+<contactref element="U$2" pad="P$AA"/>
+<contactref element="U$2" pad="P$BB"/>
+<contactref element="U$2" pad="P$15"/>
+<contactref element="U$2" pad="P$16"/>
+<contactref element="U$2" pad="P$17"/>
+<contactref element="U$2" pad="P$18"/>
+<contactref element="U$2" pad="P$1"/>
+<contactref element="U$2" pad="P$2"/>
+<contactref element="U$2" pad="P$3"/>
+<contactref element="U$2" pad="P$4"/>
+<contactref element="U$3" pad="P$1"/>
+<contactref element="U$3" pad="P$2"/>
+<contactref element="U$3" pad="P$3"/>
+<contactref element="U$3" pad="P$4"/>
+<contactref element="U$3" pad="P$15"/>
+<contactref element="U$3" pad="P$16"/>
+<contactref element="U$3" pad="P$17"/>
+<contactref element="U$3" pad="P$18"/>
+<contactref element="U$3" pad="P$J"/>
+<contactref element="U$3" pad="P$K"/>
+<contactref element="U$3" pad="P$L"/>
+<contactref element="U$3" pad="P$M"/>
+<contactref element="U$3" pad="P$N"/>
+<contactref element="U$3" pad="P$X"/>
+<contactref element="U$3" pad="P$BB"/>
+<contactref element="U$3" pad="P$AA"/>
+<contactref element="U$3" pad="P$Z"/>
+<contactref element="U$3" pad="P$Y"/>
+<contactref element="U$4" pad="P$15"/>
+<contactref element="U$4" pad="P$1"/>
+<contactref element="U$4" pad="P$2"/>
+<contactref element="U$4" pad="P$3"/>
+<contactref element="U$4" pad="P$4"/>
+<contactref element="U$4" pad="P$16"/>
+<contactref element="U$4" pad="P$17"/>
+<contactref element="U$4" pad="P$18"/>
+<contactref element="U$4" pad="P$J"/>
+<contactref element="U$4" pad="P$K"/>
+<contactref element="U$4" pad="P$L"/>
+<contactref element="U$4" pad="P$M"/>
+<contactref element="U$4" pad="P$N"/>
+<contactref element="U$4" pad="P$X"/>
+<contactref element="U$4" pad="P$Y"/>
+<contactref element="U$4" pad="P$Z"/>
+<contactref element="U$4" pad="P$AA"/>
+<contactref element="U$4" pad="P$BB"/>
+<polygon width="0.1524" layer="16">
+<vertex x="48" y="25"/>
+<vertex x="59" y="25"/>
+<vertex x="59" y="21"/>
+<vertex x="48" y="21"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="86" y="25"/>
+<vertex x="86" y="21"/>
+<vertex x="97" y="21"/>
+<vertex x="97" y="25"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="124" y="25"/>
+<vertex x="124" y="21"/>
+<vertex x="135" y="21"/>
+<vertex x="135" y="25"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="26" y="58"/>
+<vertex x="26" y="54"/>
+<vertex x="34.8984" y="54"/>
+<vertex x="34.8984" y="58"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="64" y="58"/>
+<vertex x="64" y="54"/>
+<vertex x="73" y="54"/>
+<vertex x="73" y="58"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="102" y="58"/>
+<vertex x="102" y="54"/>
+<vertex x="111" y="54"/>
+<vertex x="111" y="58"/>
+</polygon>
+<contactref element="U$1" pad="P1-1"/>
+<contactref element="U$1" pad="P1-2"/>
+<contactref element="U$1" pad="P1-3"/>
+<contactref element="U$1" pad="P1-4"/>
+<contactref element="U$1" pad="P2-1"/>
+<contactref element="U$1" pad="P2-2"/>
+<contactref element="U$1" pad="P2-3"/>
+<contactref element="U$1" pad="P2-4"/>
+<contactref element="U$1" pad="P1-5"/>
+<contactref element="U$1" pad="P1-6"/>
+<contactref element="U$1" pad="P1-7"/>
+<contactref element="U$1" pad="P1-8"/>
+<contactref element="U$1" pad="P2-5"/>
+<contactref element="U$1" pad="P2-6"/>
+<contactref element="U$1" pad="P2-7"/>
+<contactref element="U$1" pad="P2-8"/>
+<polygon width="0.1524" layer="16">
+<vertex x="6" y="25"/>
+<vertex x="6" y="15"/>
+<vertex x="15" y="15"/>
+<vertex x="15" y="25"/>
+</polygon>
+<contactref element="U$10" pad="1"/>
+<contactref element="U$10" pad="2"/>
+<contactref element="U$10" pad="3"/>
+<contactref element="U$10" pad="4"/>
+<contactref element="U$11" pad="1"/>
+<contactref element="U$11" pad="2"/>
+<contactref element="U$11" pad="3"/>
+<contactref element="U$11" pad="4"/>
+<polygon width="0.1524" layer="16">
+<vertex x="27" y="37"/>
+<vertex x="63" y="37"/>
+<vertex x="63" y="31"/>
+<vertex x="63" y="30"/>
+<vertex x="27" y="30"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="48" y="21"/>
+<vertex x="48" y="37"/>
+<vertex x="59" y="37"/>
+<vertex x="59" y="21"/>
+</polygon>
+<polygon width="0.8128" layer="16">
+<vertex x="0" y="55.7276"/>
+<vertex x="0" y="0"/>
+<vertex x="139.7" y="0"/>
+<vertex x="139.7" y="55.7276"/>
+</polygon>
+<contactref element="U$13" pad="1"/>
+<contactref element="U$13" pad="2"/>
+<contactref element="U$13" pad="3"/>
+<contactref element="U$13" pad="4"/>
+</signal>
+<signal name="+12V">
+<contactref element="U$2" pad="P$E"/>
+<contactref element="U$2" pad="P$D"/>
+<contactref element="U$2" pad="P$C"/>
+<contactref element="U$2" pad="P$B"/>
+<contactref element="U$2" pad="P$A"/>
+<contactref element="U$2" pad="P$S"/>
+<contactref element="U$2" pad="P$R"/>
+<contactref element="U$2" pad="P$Q"/>
+<contactref element="U$2" pad="P$P"/>
+<contactref element="U$2" pad="P$O"/>
+<contactref element="U$2" pad="P$13"/>
+<contactref element="U$2" pad="P$12"/>
+<contactref element="U$2" pad="P$11"/>
+<contactref element="U$2" pad="P$10"/>
+<contactref element="U$2" pad="P$9"/>
+<contactref element="U$3" pad="P$13"/>
+<contactref element="U$3" pad="P$12"/>
+<contactref element="U$3" pad="P$11"/>
+<contactref element="U$3" pad="P$10"/>
+<contactref element="U$3" pad="P$9"/>
+<contactref element="U$3" pad="P$E"/>
+<contactref element="U$3" pad="P$D"/>
+<contactref element="U$3" pad="P$C"/>
+<contactref element="U$3" pad="P$B"/>
+<contactref element="U$3" pad="P$A"/>
+<contactref element="U$3" pad="P$S"/>
+<contactref element="U$3" pad="P$R"/>
+<contactref element="U$3" pad="P$Q"/>
+<contactref element="U$3" pad="P$P"/>
+<contactref element="U$3" pad="P$O"/>
+<contactref element="U$4" pad="P$13"/>
+<contactref element="U$4" pad="P$12"/>
+<contactref element="U$4" pad="P$11"/>
+<contactref element="U$4" pad="P$10"/>
+<contactref element="U$4" pad="P$9"/>
+<contactref element="U$4" pad="P$S"/>
+<contactref element="U$4" pad="P$E"/>
+<contactref element="U$4" pad="P$D"/>
+<contactref element="U$4" pad="P$C"/>
+<contactref element="U$4" pad="P$B"/>
+<contactref element="U$4" pad="P$A"/>
+<contactref element="U$4" pad="P$O"/>
+<contactref element="U$4" pad="P$P"/>
+<contactref element="U$4" pad="P$Q"/>
+<contactref element="U$4" pad="P$R"/>
+<polygon width="0.1524" layer="1">
+<vertex x="25" y="25"/>
+<vertex x="36" y="25"/>
+<vertex x="36" y="21"/>
+<vertex x="25" y="21"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="63" y="25"/>
+<vertex x="63" y="21"/>
+<vertex x="74" y="21"/>
+<vertex x="74" y="25"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="101" y="25"/>
+<vertex x="101" y="21"/>
+<vertex x="112" y="21"/>
+<vertex x="112" y="25"/>
+</polygon>
+<contactref element="U$2" pad="P$23"/>
+<contactref element="U$3" pad="P$27"/>
+<contactref element="U$3" pad="P$26"/>
+<contactref element="U$3" pad="P$25"/>
+<contactref element="U$3" pad="P$24"/>
+<contactref element="U$3" pad="P$23"/>
+<contactref element="U$4" pad="P$23"/>
+<contactref element="U$4" pad="P$27"/>
+<contactref element="U$4" pad="P$24"/>
+<contactref element="U$4" pad="P$25"/>
+<contactref element="U$4" pad="P$26"/>
+<contactref element="U$2" pad="P$27"/>
+<contactref element="U$2" pad="P$26"/>
+<contactref element="U$2" pad="P$25"/>
+<contactref element="U$2" pad="P$24"/>
+<contactref element="U$1" pad="P3-5"/>
+<contactref element="U$1" pad="P4-8"/>
+<contactref element="U$1" pad="P4-7"/>
+<contactref element="U$1" pad="P4-6"/>
+<contactref element="U$1" pad="P4-5"/>
+<contactref element="U$1" pad="P3-8"/>
+<contactref element="U$1" pad="P3-7"/>
+<contactref element="U$1" pad="P3-6"/>
+<contactref element="U$1" pad="P3-1"/>
+<contactref element="U$1" pad="P4-4"/>
+<contactref element="U$1" pad="P4-3"/>
+<contactref element="U$1" pad="P4-2"/>
+<contactref element="U$1" pad="P4-1"/>
+<contactref element="U$1" pad="P3-4"/>
+<contactref element="U$1" pad="P3-3"/>
+<contactref element="U$1" pad="P3-2"/>
+<contactref element="U$6" pad="4"/>
+<contactref element="U$6" pad="3"/>
+<contactref element="U$6" pad="2"/>
+<contactref element="U$6" pad="1"/>
+<contactref element="U$9" pad="4"/>
+<contactref element="U$9" pad="3"/>
+<contactref element="U$9" pad="2"/>
+<contactref element="U$9" pad="1"/>
+<polygon width="0.2" layer="1">
+<vertex x="45.873" y="58.2794"/>
+<vertex x="58" y="58.2794"/>
+<vertex x="58" y="41"/>
+<vertex x="45.873" y="41"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="16.2814" y="50.6984"/>
+<vertex x="26.3398" y="40.64"/>
+<vertex x="126.5428" y="40.64"/>
+<vertex x="134.1374" y="48.2346"/>
+<vertex x="134.1374" y="58.2676"/>
+<vertex x="122.3772" y="58.2676"/>
+<vertex x="122.3772" y="53.7718"/>
+<vertex x="122.7836" y="53.7718"/>
+<vertex x="120.2182" y="51.2064"/>
+<vertex x="25.019" y="51.2064"/>
+<vertex x="15.2146" y="61.0108"/>
+<vertex x="5.5626" y="61.0108"/>
+<vertex x="5.5626" y="50.6984"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="101.6" y="20.32"/>
+<vertex x="101.6" y="36.83"/>
+<vertex x="93.98" y="44.45"/>
+<vertex x="107.8992" y="44.45"/>
+<vertex x="111.6838" y="40.6654"/>
+<vertex x="111.6838" y="20.32"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="83.82" y="58.42"/>
+<vertex x="83.82" y="48.26"/>
+<vertex x="96.52" y="48.26"/>
+<vertex x="96.52" y="58.42"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="74.9188875" y="20.32"/>
+<vertex x="63.44384375" y="37.010975"/>
+<vertex x="66.5734" y="20.32"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="63.5" y="20.32"/>
+<vertex x="63.5" y="36.83"/>
+<vertex x="59.69" y="40.64"/>
+<vertex x="59.69" y="43.18"/>
+<vertex x="71.2216" y="43.18"/>
+<vertex x="73.66" y="40.7416"/>
+<vertex x="73.66" y="20.32"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="35.56" y="20.32"/>
+<vertex x="35.56" y="26.3144"/>
+<vertex x="32.5628" y="29.3116"/>
+<vertex x="32.5628" y="41.4274"/>
+<vertex x="28.2702" y="45.72"/>
+<vertex x="21.59" y="45.72"/>
+<vertex x="16.4084" y="50.9016"/>
+<vertex x="16.4084" y="29.5656"/>
+<vertex x="23.5204" y="22.4536"/>
+<vertex x="23.5204" y="20.32"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="12.0396" y="60.9854"/>
+<vertex x="24.8666" y="60.9854"/>
+<vertex x="24.8666" y="50.7746"/>
+<vertex x="12.0396" y="50.7746"/>
+</polygon>
+</signal>
+<signal name="+3V3">
+<contactref element="U$2" pad="P$G"/>
+<contactref element="U$2" pad="P$H"/>
+<contactref element="U$2" pad="P$V"/>
+<contactref element="U$2" pad="P$U"/>
+<contactref element="U$3" pad="P$H"/>
+<contactref element="U$3" pad="P$G"/>
+<contactref element="U$3" pad="P$V"/>
+<contactref element="U$3" pad="P$U"/>
+<contactref element="U$4" pad="P$U"/>
+<contactref element="U$4" pad="P$V"/>
+<contactref element="U$4" pad="P$G"/>
+<contactref element="U$4" pad="P$H"/>
+<polygon width="0.1524" layer="1">
+<vertex x="6" y="29"/>
+<vertex x="6" y="37"/>
+<vertex x="11" y="37"/>
+<vertex x="11" y="35"/>
+<vertex x="14" y="35"/>
+<vertex x="14" y="28"/>
+<vertex x="6" y="28"/>
+</polygon>
+<wire x1="38.1" y1="16.51" x2="19.3548" y2="16.51" width="0.8128" layer="1"/>
+<polygon width="0.8128" layer="1">
+<vertex x="115.57" y="20.32"/>
+<vertex x="115.57" y="25.4"/>
+<vertex x="120.65" y="20.32"/>
+</polygon>
+<wire x1="38.1" y1="16.51" x2="76.2" y2="16.51" width="0.8128" layer="1"/>
+<wire x1="78.74" y1="21.59" x2="78.74" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="78.74" y1="19.05" x2="76.2" y2="16.51" width="0.8128" layer="1"/>
+<wire x1="40.64" y1="21.59" x2="40.64" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="40.64" y1="19.05" x2="38.1" y2="16.51" width="0.8128" layer="1"/>
+<wire x1="76.2" y1="16.51" x2="114.3" y2="16.51" width="0.8128" layer="1"/>
+<wire x1="114.3" y1="16.51" x2="116.84" y2="19.05" width="0.8128" layer="1"/>
+<polygon width="0.1524" layer="1">
+<vertex x="39.37" y="20.32"/>
+<vertex x="39.37" y="25.4"/>
+<vertex x="44.45" y="25.4"/>
+<vertex x="44.45" y="20.32"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="77.47" y="20.32"/>
+<vertex x="77.47" y="25.4"/>
+<vertex x="82.55" y="25.4"/>
+<vertex x="82.55" y="20.32"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="115.57" y="20.32"/>
+<vertex x="115.57" y="25.4"/>
+<vertex x="120.65" y="25.4"/>
+<vertex x="120.65" y="20.32"/>
+</polygon>
+<wire x1="116.84" y1="19.05" x2="116.84" y2="21.59" width="0.8128" layer="1"/>
+<wire x1="16.0274" y1="19.8374" x2="16.0274" y2="26.9494" width="0.8128" layer="1"/>
+<wire x1="19.3548" y1="16.51" x2="16.0274" y2="19.8374" width="0.8128" layer="1"/>
+<contactref element="U$1" pad="17"/>
+<contactref element="U$1" pad="18"/>
+<contactref element="U$1" pad="19"/>
+<contactref element="U$1" pad="1"/>
+<contactref element="U$1" pad="4"/>
+<contactref element="U$1" pad="3"/>
+<contactref element="U$1" pad="2"/>
+<contactref element="U$1" pad="9"/>
+<contactref element="U$1" pad="10"/>
+<contactref element="U$1" pad="11"/>
+<contactref element="U$1" pad="12"/>
+<wire x1="16.0274" y1="26.9494" x2="13.7668" y2="29.21" width="0.8128" layer="1"/>
+<wire x1="13.7668" y1="29.21" x2="12.4" y2="29.21" width="0.8128" layer="1"/>
+</signal>
+<signal name="CAN_H">
+<contactref element="U$2" pad="P$6"/>
+<contactref element="U$3" pad="P$6"/>
+<contactref element="U$4" pad="P$6"/>
+<contactref element="U$1" pad="20"/>
+<contactref element="U$5" pad="2"/>
+<contactref element="U$7" pad="2"/>
+<wire x1="12.4" y1="36.83" x2="15.0254" y2="39.4554" width="0.254" layer="16"/>
+<wire x1="15.0254" y1="39.4554" x2="15.0254" y2="48.4826" width="0.254" layer="16"/>
+<wire x1="13.6604" y1="49.8476" x2="5.1524" y2="49.8476" width="0.254" layer="16"/>
+<wire x1="5.1524" y1="49.8476" x2="3" y2="52" width="0.254" layer="16"/>
+<wire x1="3" y1="52" x2="3" y2="64" width="0.254" layer="16"/>
+<wire x1="3" y1="64" x2="8" y2="69" width="0.254" layer="16"/>
+<wire x1="8" y1="69" x2="22.7076" y2="69" width="0.254" layer="16"/>
+<wire x1="22.7076" y1="69" x2="24.7498" y2="69" width="0.254" layer="16"/>
+<wire x1="35.5974" y1="58.1524" x2="35.5974" y2="56.6771625" width="0.254" layer="16"/>
+<wire x1="35.5974" y1="56.6771625" x2="36.4777625" y2="55.7968" width="0.254" layer="16"/>
+<wire x1="36.4777625" y1="55.7968" x2="38.2032" y2="55.7968" width="0.254" layer="16"/>
+<wire x1="38.2032" y1="55.7968" x2="39.37" y2="54.63" width="0.254" layer="16"/>
+<wire x1="39.37" y1="54.63" x2="39.37" y2="54.61" width="0.254" layer="16"/>
+<wire x1="15.0254" y1="48.4826" x2="13.6604" y2="49.8476" width="0.254" layer="16"/>
+<wire x1="54.656" y1="73" x2="59.82" y2="67.836" width="0.254" layer="16"/>
+<wire x1="54" y1="73" x2="54.656" y2="73" width="0.254" layer="16"/>
+<wire x1="54" y1="73" x2="72" y2="73" width="0.254" layer="16"/>
+<wire x1="72" y1="73" x2="72.724" y2="73" width="0.254" layer="16"/>
+<wire x1="72.724" y1="73" x2="77.888" y2="67.836" width="0.254" layer="16"/>
+<wire x1="72" y1="73" x2="96" y2="73" width="0.254" layer="16"/>
+<wire x1="96" y1="73" x2="109.635" y2="59.365" width="0.254" layer="16"/>
+<wire x1="109.635" y1="59.365" x2="113.6858" y2="59.365" width="0.254" layer="16"/>
+<wire x1="113.6858" y1="59.365" x2="114.2626" y2="58.7882" width="0.254" layer="16"/>
+<wire x1="114.2626" y1="56.2984" x2="115.57" y2="54.991" width="0.254" layer="16"/>
+<wire x1="114.2626" y1="58.7882" x2="114.2626" y2="56.2984" width="0.254" layer="16"/>
+<wire x1="77.888" y1="67.836" x2="77.888" y2="63.888" width="0.254" layer="16"/>
+<wire x1="76.3898" y1="62.3898" x2="76.3898" y2="55.6902" width="0.254" layer="16"/>
+<wire x1="77.888" y1="63.888" x2="76.3898" y2="62.3898" width="0.254" layer="16"/>
+<wire x1="76.3898" y1="55.6902" x2="77.47" y2="54.61" width="0.254" layer="16"/>
+<wire x1="115.57" y1="54.991" x2="115.57" y2="54.61" width="0.254" layer="16"/>
+<wire x1="24.7498" y1="69" x2="28.7498" y2="73" width="0.254" layer="16"/>
+<wire x1="28.7498" y1="73" x2="54" y2="73" width="0.254" layer="16"/>
+<wire x1="22.7076" y1="69" x2="33.2114" y2="58.4962" width="0.254" layer="16"/>
+<wire x1="35.2536" y1="58.4962" x2="35.5974" y2="58.1524" width="0.254" layer="16"/>
+<wire x1="33.2114" y1="58.4962" x2="35.2536" y2="58.4962" width="0.254" layer="16"/>
+</signal>
+<signal name="CAN_L">
+<contactref element="U$2" pad="P$7"/>
+<contactref element="U$3" pad="P$7"/>
+<contactref element="U$4" pad="P$7"/>
+<contactref element="U$1" pad="21"/>
+<contactref element="U$5" pad="3"/>
+<contactref element="U$7" pad="3"/>
+<wire x1="12.4" y1="39.37" x2="14" y2="40.97" width="0.254" layer="1"/>
+<wire x1="14" y1="40.97" x2="14" y2="48" width="0.254" layer="1"/>
+<wire x1="14" y1="48" x2="13" y2="49" width="0.254" layer="1"/>
+<wire x1="13" y1="49" x2="4" y2="49" width="0.254" layer="1"/>
+<wire x1="4" y1="49" x2="2" y2="51" width="0.254" layer="1"/>
+<wire x1="2" y1="51" x2="2" y2="65" width="0.254" layer="1"/>
+<wire x1="2" y1="65" x2="7" y2="70" width="0.254" layer="1"/>
+<wire x1="25" y1="70" x2="29" y2="74" width="0.254" layer="1"/>
+<wire x1="29" y1="74" x2="51.656" y2="74" width="0.254" layer="1"/>
+<wire x1="51.656" y1="74" x2="51.828" y2="73.828" width="0.254" layer="1"/>
+<wire x1="51.828" y1="73.828" x2="57.82" y2="67.836" width="0.254" layer="1"/>
+<wire x1="7" y1="70" x2="22.5298" y2="70" width="0.254" layer="1"/>
+<wire x1="22.5298" y1="70" x2="25" y2="70" width="0.254" layer="1"/>
+<wire x1="51.656" y1="74" x2="69.724" y2="74" width="0.254" layer="1"/>
+<wire x1="69.724" y1="74" x2="69.862" y2="73.862" width="0.254" layer="1"/>
+<wire x1="69.862" y1="73.862" x2="75.888" y2="67.836" width="0.254" layer="1"/>
+<wire x1="69.724" y1="74" x2="69.724" y2="74" width="0.254" layer="1"/>
+<wire x1="69.724" y1="74" x2="97" y2="74" width="0.254" layer="1"/>
+<wire x1="97" y1="74" x2="110.4986" y2="60.5014" width="0.254" layer="1"/>
+<wire x1="110.4986" y1="60.5014" x2="115.5842" y2="60.5014" width="0.254" layer="1"/>
+<wire x1="116.8222" y1="55.8978" x2="118.11" y2="54.61" width="0.254" layer="1"/>
+<wire x1="115.5842" y1="60.5014" x2="116.8222" y2="59.2634" width="0.254" layer="1"/>
+<wire x1="116.8222" y1="59.2634" x2="116.8222" y2="55.8978" width="0.254" layer="1"/>
+<wire x1="75.888" y1="67.836" x2="75.888" y2="61.112" width="0.254" layer="1"/>
+<wire x1="78.6952" y1="58.3048" x2="78.6952" y2="55.9248" width="0.254" layer="1"/>
+<wire x1="78.6952" y1="55.9248" x2="80.01" y2="54.61" width="0.254" layer="1"/>
+<wire x1="75.888" y1="61.112" x2="78.6952" y2="58.3048" width="0.254" layer="1"/>
+<wire x1="39.6698" y1="59" x2="40.6444" y2="58.0254" width="0.254" layer="1"/>
+<wire x1="40.6444" y1="55.8756" x2="41.91" y2="54.61" width="0.254" layer="1"/>
+<wire x1="40.6444" y1="58.0254" x2="40.6444" y2="55.8756" width="0.254" layer="1"/>
+<wire x1="22.5298" y1="70" x2="33.5298" y2="59" width="0.254" layer="1"/>
+<wire x1="33.5298" y1="59" x2="39.6698" y2="59" width="0.254" layer="1"/>
+</signal>
+<signal name="+5V">
+<contactref element="U$8" pad="4"/>
+<contactref element="U$8" pad="3"/>
+<contactref element="U$8" pad="2"/>
+<contactref element="U$8" pad="1"/>
+<polygon width="0.1524" layer="1">
+<vertex x="6.35" y="48.26"/>
+<vertex x="12.7" y="48.26"/>
+<vertex x="12.7" y="40.64"/>
+<vertex x="11.43" y="40.64"/>
+<vertex x="11.43" y="38.1"/>
+<vertex x="6.35" y="38.1"/>
+</polygon>
+<contactref element="U$1" pad="22"/>
+<contactref element="U$1" pad="23"/>
+<contactref element="U$1" pad="24"/>
+<contactref element="U$1" pad="5"/>
+<contactref element="U$1" pad="8"/>
+<contactref element="U$1" pad="7"/>
+<contactref element="U$1" pad="6"/>
+<contactref element="U$1" pad="13"/>
+<contactref element="U$1" pad="15"/>
+<contactref element="U$1" pad="16"/>
+<contactref element="U$1" pad="14"/>
+<contactref element="U$12" pad="4"/>
+<contactref element="U$12" pad="3"/>
+<contactref element="U$12" pad="2"/>
+<contactref element="U$12" pad="1"/>
+<polygon width="0.1524" layer="1">
+<vertex x="44" y="5"/>
+<vertex x="44" y="12"/>
+<vertex x="82" y="12"/>
+<vertex x="82" y="5"/>
+</polygon>
+<wire x1="7.32" y1="46.99" x2="4.3434" y2="46.99" width="2.54" layer="1"/>
+<wire x1="4.3434" y1="46.99" x2="3.302" y2="45.9486" width="2.54" layer="1"/>
+<wire x1="3.302" y1="45.9486" x2="3.302" y2="12.954" width="2.54" layer="1"/>
+<wire x1="3.302" y1="12.954" x2="5.588" y2="10.668" width="2.54" layer="1"/>
+<wire x1="5.588" y1="10.668" x2="43.88675625" y2="10.668" width="2.54" layer="1"/>
+<wire x1="43.88675625" y1="10.668" x2="43.94355625" y2="10.7248" width="2.54" layer="1"/>
+<wire x1="43.94355625" y1="10.7248" x2="50.1714" y2="10.7248" width="2.54" layer="1"/>
+<wire x1="50.1714" y1="10.7248" x2="52.1724" y2="8.7238" width="1.524" layer="1"/>
+</signal>
+>>>>>>> Stashed changes
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
