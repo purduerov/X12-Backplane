@@ -6,23 +6,23 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -175,7 +175,7 @@
 <wire x1="139.7" y1="0" x2="139.7" y2="76.2" width="0" layer="20"/>
 <wire x1="139.7" y1="76.2" x2="0" y2="76.2" width="0" layer="20"/>
 <wire x1="0" y1="76.2" x2="0" y2="0" width="0" layer="20"/>
-<text x="67.2338" y="71.628" size="1.778" layer="25">CAN</text>
+<text x="70.2338" y="71.628" size="1.778" layer="25">CAN</text>
 <text x="51.9176" y="1.27" size="1.778" layer="25">+5V</text>
 <text x="7.4422" y="12.7508" size="1.778" layer="25">+12V</text>
 <text x="8.0772" y="62.6872" size="1.778" layer="25">GND</text>
@@ -189,11 +189,11 @@
 <text x="25.5778" y="18.0086" size="1.778" layer="25">+12V</text>
 <text x="71.1962" y="1.016" size="1.778" layer="25">+5V</text>
 <text x="91.7194" y="1.143" size="1.778" layer="25">GND</text>
-<text x="113.4872" y="2.159" size="1.778" layer="25">Backplane v2
+<text x="113.4872" y="2.159" size="1.778" layer="25">Backplane v3
 Melchor De La Garza
 Cynthia Zatlokowicz
 Jacob Bobson
-</text>
+Grant Geyer</text>
 <rectangle x1="126.4285" y1="26.4795" x2="126.9619" y2="26.5049" layer="200"/>
 <rectangle x1="126.1999" y1="26.5049" x2="127.1397" y2="26.5303" layer="200"/>
 <rectangle x1="126.0221" y1="26.5303" x2="127.2413" y2="26.5557" layer="200"/>
@@ -5789,23 +5789,18 @@ STAND-OFF</description>
 </package3d>
 </packages3d>
 </library>
-<library name="BackplaneParts">
+<library name="PHConnector">
 <packages>
-<package name="T2I">
-<wire x1="0" y1="0" x2="0" y2="5.588" width="0.127" layer="21"/>
-<wire x1="0" y1="5.588" x2="17.8054" y2="5.588" width="0.127" layer="21"/>
-<wire x1="17.8054" y1="5.588" x2="17.8054" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="7.62" y2="0" width="0.127" layer="21"/>
-<wire x1="13.1318" y1="0" x2="17.78" y2="0" width="0.127" layer="21"/>
-<wire x1="13.1318" y1="-1.016" x2="7.62" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-1.016" x2="7.62" y2="0" width="0.127" layer="21"/>
-<wire x1="13.1318" y1="-1.016" x2="13.1318" y2="0" width="0.127" layer="21"/>
-<pad name="S1" x="0.7" y="2.8" drill="0.7"/>
-<pad name="1" x="8.1" y="2.8" drill="0.8"/>
-<pad name="2" x="10.1" y="2.8" drill="0.8"/>
-<pad name="3" x="12.1" y="2.8" drill="0.8"/>
-<pad name="4" x="14.1" y="2.8" drill="0.8"/>
-<pad name="S2" x="17.1" y="2.8" drill="0.8"/>
+<package name="PHCONNECTOR">
+<pad name="P$1" x="0" y="0" drill="0.5"/>
+<pad name="P$2" x="2" y="0" drill="0.5"/>
+<pad name="P$3" x="4" y="0" drill="0.5"/>
+<pad name="P$4" x="6" y="0" drill="0.5"/>
+<wire x1="-1.95" y1="-1.7" x2="-1.95" y2="2.8" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="2.8" x2="7.95" y2="2.8" width="0.127" layer="21"/>
+<wire x1="7.95" y1="2.8" x2="7.95" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="7.95" y1="-1.7" x2="-1.95" y2="-1.7" width="0.127" layer="21"/>
+<text x="-2" y="3" size="1.27" layer="25">PHConnector</text>
 </package>
 </packages>
 </library>
@@ -6003,13 +5998,13 @@ Please make sure your boards conform to these design rules.
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="ET60S-02-24-02-X-VP-GP" package="ET60S-02-24-02-X-VP-GP" value="ET60S-02-24-02-X-VP-GP" x="7.62" y="38.1" rot="R90">
-<attribute name="NAME" x="-0.98" y="35.3" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="16.22" y="35.3" size="1.27" layer="27" rot="R90"/>
+<element name="U$1" library="ET60S-02-24-02-X-VP-GP" package="ET60S-02-24-02-X-VP-GP" value="ET60S-02-24-02-X-VP-GP" x="6.16" y="38.1" rot="R90">
+<attribute name="NAME" x="-2.44" y="35.3" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="14.76" y="35.3" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U$2" library="ESC_to_Backplane_Connectors" package="ESC2BACKPLANE_WHOLE" value="ESC2BACKPLANE" x="22.86" y="22.86"/>
-<element name="U$3" library="ESC_to_Backplane_Connectors" package="ESC2BACKPLANE_WHOLE" value="ESC2BACKPLANE" x="64" y="22.86"/>
-<element name="U$4" library="ESC_to_Backplane_Connectors" package="ESC2BACKPLANE_WHOLE" value="ESC2BACKPLANE" x="105.14" y="22.86"/>
+<element name="U$2" library="ESC_to_Backplane_Connectors" package="ESC2BACKPLANE_WHOLE" value="ESC2BACKPLANE" x="22.0444" y="22.86"/>
+<element name="U$3" library="ESC_to_Backplane_Connectors" package="ESC2BACKPLANE_WHOLE" value="ESC2BACKPLANE" x="63.5" y="22.86"/>
+<element name="U$4" library="ESC_to_Backplane_Connectors" package="ESC2BACKPLANE_WHOLE" value="ESC2BACKPLANE" x="104.6" y="22.86"/>
 <element name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF" package3d_urn="urn:adsk.eagle:package:38630/1" value="STAND-OFF" x="31.75" y="6.35">
 <attribute name="NAME" x="31.75" y="8.382" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="31.75" y="4.318" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -6026,15 +6021,15 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="107.95" y="71.882" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="107.95" y="67.818" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U$5" library="BackplaneParts" package="T2I" value="T2I" x="69.92" y="70.636" rot="R180"/>
-<element name="U$6" library="BackplaneParts" package="T2I" value="T2I" x="45" y="42"/>
-<element name="U$7" library="BackplaneParts" package="T2I" value="T2I" x="87.988" y="70.636" rot="R180"/>
-<element name="U$8" library="BackplaneParts" package="T2I" value="T2I" x="44.301" y="4.1966"/>
-<element name="U$9" library="BackplaneParts" package="T2I" value="T2I" x="27" y="42"/>
-<element name="U$10" library="BackplaneParts" package="T2I" value="T2I" x="45" y="31"/>
-<element name="U$11" library="BackplaneParts" package="T2I" value="T2I" x="27" y="31"/>
-<element name="U$12" library="BackplaneParts" package="T2I" value="T2I" x="63.246" y="4.0894"/>
-<element name="U$13" library="BackplaneParts" package="T2I" value="T2I" x="84.0486" y="4.1148"/>
+<element name="U$14" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="57.01" y="7.75" rot="R180"/>
+<element name="U$15" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="61.5" y="36" rot="R180"/>
+<element name="U$16" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="60.5" y="71"/>
+<element name="U$17" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="56.5" y="43"/>
+<element name="U$18" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="102.246" y="36" rot="R180"/>
+<element name="U$19" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="79.5" y="71"/>
+<element name="U$20" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="98.5" y="43"/>
+<element name="U$21" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="76.985" y="7.695" rot="R180"/>
+<element name="U$22" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="96.5" y="8" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -6093,28 +6088,10 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$4" pad="P$AA"/>
 <contactref element="U$4" pad="P$BB"/>
 <polygon width="0.1524" layer="16">
-<vertex x="48" y="25"/>
-<vertex x="59" y="25"/>
-<vertex x="59" y="21"/>
-<vertex x="48" y="21"/>
-</polygon>
-<polygon width="0.1524" layer="16">
-<vertex x="86" y="25"/>
-<vertex x="86" y="21"/>
-<vertex x="97" y="21"/>
-<vertex x="97" y="25"/>
-</polygon>
-<polygon width="0.1524" layer="16">
-<vertex x="124" y="25"/>
-<vertex x="124" y="21"/>
-<vertex x="135" y="21"/>
-<vertex x="135" y="25"/>
-</polygon>
-<polygon width="0.1524" layer="16">
-<vertex x="26" y="58"/>
-<vertex x="26" y="54"/>
-<vertex x="34.8984" y="54"/>
-<vertex x="34.8984" y="58"/>
+<vertex x="23" y="58"/>
+<vertex x="23" y="54"/>
+<vertex x="31.8984" y="54"/>
+<vertex x="31.8984" y="58"/>
 </polygon>
 <polygon width="0.1524" layer="16">
 <vertex x="64" y="58"/>
@@ -6123,10 +6100,10 @@ Please make sure your boards conform to these design rules.
 <vertex x="73" y="58"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="102" y="58"/>
-<vertex x="102" y="54"/>
-<vertex x="111" y="54"/>
-<vertex x="111" y="58"/>
+<vertex x="104.77" y="57.87"/>
+<vertex x="104.77" y="54"/>
+<vertex x="114.535" y="54"/>
+<vertex x="114.535" y="57.87"/>
 </polygon>
 <contactref element="U$1" pad="P1-1"/>
 <contactref element="U$1" pad="P1-2"/>
@@ -6144,35 +6121,11 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$1" pad="P2-6"/>
 <contactref element="U$1" pad="P2-7"/>
 <contactref element="U$1" pad="P2-8"/>
-<contactref element="U$10" pad="1"/>
-<contactref element="U$10" pad="2"/>
-<contactref element="U$10" pad="3"/>
-<contactref element="U$10" pad="4"/>
-<contactref element="U$11" pad="1"/>
-<contactref element="U$11" pad="2"/>
-<contactref element="U$11" pad="3"/>
-<contactref element="U$11" pad="4"/>
-<polygon width="0.1524" layer="16">
-<vertex x="27" y="37"/>
-<vertex x="62.492" y="37"/>
-<vertex x="62.492" y="30"/>
-<vertex x="27" y="30"/>
-</polygon>
-<polygon width="0.2" layer="16">
-<vertex x="48" y="21"/>
-<vertex x="48" y="37"/>
-<vertex x="59" y="37"/>
-<vertex x="59" y="21"/>
-</polygon>
-<contactref element="U$13" pad="1"/>
-<contactref element="U$13" pad="2"/>
-<contactref element="U$13" pad="3"/>
-<contactref element="U$13" pad="4"/>
 <polygon width="0.3048" layer="16">
-<vertex x="15.24" y="50.546"/>
-<vertex x="15.24" y="61.214"/>
-<vertex x="5.334" y="61.214"/>
-<vertex x="5.334" y="50.546"/>
+<vertex x="11.24" y="50.546"/>
+<vertex x="11.24" y="61.214"/>
+<vertex x="1.334" y="61.214"/>
+<vertex x="1.334" y="50.546"/>
 </polygon>
 <polygon width="0.254" layer="16">
 <vertex x="84.074" y="10.414"/>
@@ -6180,12 +6133,24 @@ Please make sure your boards conform to these design rules.
 <vertex x="101.854" y="4.064"/>
 <vertex x="101.854" y="10.414"/>
 </polygon>
-<polygon width="0.254" layer="16">
-<vertex x="139.192" y="55.88"/>
+<polygon width="0.254" layer="16" isolate="0.4064" rank="3">
+<vertex x="139.192" y="78.7908"/>
 <vertex x="139.192" y="0.762"/>
-<vertex x="1.27" y="0.762"/>
-<vertex x="1.27" y="55.88"/>
+<vertex x="-0.889" y="0.762"/>
+<vertex x="-0.889" y="78.7908"/>
 </polygon>
+<contactref element="U$22" pad="P$1"/>
+<contactref element="U$22" pad="P$2"/>
+<contactref element="U$22" pad="P$3"/>
+<contactref element="U$22" pad="P$4"/>
+<contactref element="U$18" pad="P$1"/>
+<contactref element="U$18" pad="P$2"/>
+<contactref element="U$18" pad="P$3"/>
+<contactref element="U$18" pad="P$4"/>
+<contactref element="U$15" pad="P$1"/>
+<contactref element="U$15" pad="P$2"/>
+<contactref element="U$15" pad="P$3"/>
+<contactref element="U$15" pad="P$4"/>
 </signal>
 <signal name="+12V">
 <contactref element="U$2" pad="P$E"/>
@@ -6235,21 +6200,21 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$4" pad="P$R"/>
 <polygon width="0.1524" layer="1">
 <vertex x="25" y="25"/>
-<vertex x="36" y="25"/>
-<vertex x="36" y="21"/>
+<vertex x="33" y="25"/>
+<vertex x="33" y="21"/>
 <vertex x="25" y="21"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="63" y="25"/>
-<vertex x="63" y="21"/>
-<vertex x="74" y="21"/>
-<vertex x="74" y="25"/>
+<vertex x="62.5" y="25"/>
+<vertex x="62.5" y="21"/>
+<vertex x="74.5" y="21"/>
+<vertex x="74.5" y="25"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="101" y="25"/>
-<vertex x="101" y="21"/>
-<vertex x="112" y="21"/>
-<vertex x="112" y="25"/>
+<vertex x="104" y="25"/>
+<vertex x="104" y="20.5"/>
+<vertex x="116" y="20.5"/>
+<vertex x="116" y="25"/>
 </polygon>
 <contactref element="U$2" pad="P$23"/>
 <contactref element="U$3" pad="P$27"/>
@@ -6282,38 +6247,18 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$1" pad="P3-4"/>
 <contactref element="U$1" pad="P3-3"/>
 <contactref element="U$1" pad="P3-2"/>
-<contactref element="U$6" pad="4"/>
-<contactref element="U$6" pad="3"/>
-<contactref element="U$6" pad="2"/>
-<contactref element="U$6" pad="1"/>
-<contactref element="U$9" pad="4"/>
-<contactref element="U$9" pad="3"/>
-<contactref element="U$9" pad="2"/>
-<contactref element="U$9" pad="1"/>
 <polygon width="0.2" layer="1">
-<vertex x="45.873" y="58.2794"/>
-<vertex x="58" y="58.2794"/>
-<vertex x="58" y="41"/>
-<vertex x="45.873" y="41"/>
+<vertex x="42.873" y="58.2794"/>
+<vertex x="55.5" y="58.2794"/>
+<vertex x="55.5" y="41"/>
+<vertex x="42.873" y="41"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="26.3398" y="40.64"/>
-<vertex x="126.5428" y="40.64"/>
-<vertex x="134.1374" y="48.2346"/>
-<vertex x="134.1374" y="58.2676"/>
-<vertex x="122.3772" y="58.2676"/>
-<vertex x="122.3772" y="53.7718"/>
-<vertex x="122.7836" y="53.7718"/>
-<vertex x="119.4562" y="50.4444"/>
-<vertex x="26.3398" y="50.4444"/>
-</polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="101.6" y="20.32"/>
-<vertex x="101.6" y="36.83"/>
-<vertex x="93.98" y="44.45"/>
-<vertex x="107.8992" y="44.45"/>
-<vertex x="111.6838" y="40.6654"/>
-<vertex x="111.6838" y="20.32"/>
+<vertex x="103.1" y="20.32"/>
+<vertex x="103.1" y="43.33"/>
+<vertex x="102.98" y="43.45"/>
+<vertex x="115.6838" y="43.45"/>
+<vertex x="115.6838" y="20.32"/>
 </polygon>
 <polygon width="0.1524" layer="1">
 <vertex x="83.82" y="58.42"/>
@@ -6322,31 +6267,28 @@ Please make sure your boards conform to these design rules.
 <vertex x="96.52" y="58.42"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="63.754" y="20.32"/>
-<vertex x="63.754" y="36.83"/>
-<vertex x="59.69" y="40.894"/>
-<vertex x="59.69" y="43.18"/>
-<vertex x="71.2216" y="43.18"/>
-<vertex x="73.66" y="40.7416"/>
-<vertex x="73.66" y="20.32"/>
+<vertex x="62.504" y="21.025"/>
+<vertex x="62.504" y="45.68"/>
+<vertex x="74.51" y="45.68"/>
+<vertex x="74.51" y="21.025"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="14.478" y="14.986"/>
-<vertex x="14.478" y="25.146"/>
-<vertex x="14.478" y="25.4"/>
-<vertex x="5.588" y="25.4"/>
-<vertex x="5.588" y="14.986"/>
+<vertex x="11.7545" y="13.7655"/>
+<vertex x="11.7545" y="21.6075"/>
+<vertex x="11.7545" y="26.3205"/>
+<vertex x="1.588" y="26.3205"/>
+<vertex x="1.588" y="13.7655"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="25.4" y="25.146"/>
-<vertex x="12.954" y="25.146"/>
-<vertex x="12.954" y="20.828"/>
-<vertex x="25.4" y="20.828"/>
+<vertex x="25.4" y="26.3375"/>
+<vertex x="8.454" y="26.3375"/>
+<vertex x="8.454" y="16.637"/>
+<vertex x="25.4" y="16.637"/>
 </polygon>
 <polygon width="0.3048" layer="1">
-<vertex x="24.384" y="25.146"/>
-<vertex x="24.384" y="18.542"/>
-<vertex x="28.448" y="14.478"/>
+<vertex x="19.0535" y="26.424"/>
+<vertex x="19.0535" y="21.1845"/>
+<vertex x="25.76" y="14.478"/>
 <vertex x="29.21" y="14.478"/>
 <vertex x="72.136" y="14.478"/>
 <vertex x="72.39" y="14.732"/>
@@ -6356,10 +6298,55 @@ Please make sure your boards conform to these design rules.
 <vertex x="63.5" y="18.034"/>
 <vertex x="63.246" y="17.78"/>
 <vertex x="61.214" y="17.78"/>
-<vertex x="39.878" y="17.78"/>
-<vertex x="37.084" y="20.574"/>
-<vertex x="36.576" y="21.082"/>
-<vertex x="36.576" y="25.146"/>
+<vertex x="36.4208" y="17.78"/>
+<vertex x="35.3046" y="18.8962"/>
+<vertex x="33.5593" y="20.6415"/>
+<vertex x="33.5593" y="26.424"/>
+</polygon>
+<contactref element="U$17" pad="P$4"/>
+<contactref element="U$17" pad="P$3"/>
+<contactref element="U$17" pad="P$2"/>
+<contactref element="U$17" pad="P$1"/>
+<contactref element="U$20" pad="P$4"/>
+<contactref element="U$20" pad="P$3"/>
+<contactref element="U$20" pad="P$2"/>
+<contactref element="U$20" pad="P$1"/>
+<polygon width="0.254" layer="1">
+<vertex x="42.492" y="39.7046"/>
+<vertex x="42.492" y="51.7112"/>
+<vertex x="137.526" y="51.7112"/>
+<vertex x="137.526" y="49.526"/>
+<vertex x="137.526" y="39.7046"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="42.4412" y="58.8636"/>
+<vertex x="55.5" y="58.8636"/>
+<vertex x="55.5" y="41"/>
+<vertex x="42.4412" y="41"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="124.873" y="58.2794"/>
+<vertex x="137.5" y="58.2794"/>
+<vertex x="137.5" y="41"/>
+<vertex x="124.873" y="41"/>
+</polygon>
+<polygon width="0.3048" layer="1">
+<vertex x="19.558" y="23.495"/>
+<vertex x="19.558" y="41.275"/>
+<vertex x="26.162" y="47.879"/>
+<vertex x="29.464" y="51.181"/>
+<vertex x="43.815" y="51.181"/>
+<vertex x="50.546" y="51.181"/>
+<vertex x="57.277" y="44.45"/>
+<vertex x="57.277" y="41.529"/>
+<vertex x="55.499" y="39.751"/>
+<vertex x="44.323" y="39.751"/>
+<vertex x="40.513" y="39.751"/>
+<vertex x="33.909" y="33.147"/>
+<vertex x="33.528" y="32.766"/>
+<vertex x="33.528" y="26.416"/>
+<vertex x="30.607" y="23.495"/>
+<vertex x="20.066" y="23.495"/>
 </polygon>
 </signal>
 <signal name="+3V3">
@@ -6387,127 +6374,135 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$1" pad="11"/>
 <contactref element="U$1" pad="12"/>
 <polygon width="0.3048" layer="1">
-<vertex x="44.45" y="21.336"/>
-<vertex x="44.45" y="25.146"/>
-<vertex x="39.37" y="25.146"/>
-<vertex x="39.37" y="20.574"/>
-<vertex x="44.45" y="20.574"/>
+<vertex x="41.1706" y="24.0566"/>
+<vertex x="41.1706" y="25.9165"/>
+<vertex x="36.0652" y="25.9165"/>
+<vertex x="36.0652" y="20.06"/>
+<vertex x="41.1706" y="20.06"/>
 </polygon>
 <polygon width="0.3048" layer="1">
-<vertex x="115.57" y="20.574"/>
-<vertex x="115.57" y="25.146"/>
-<vertex x="120.65" y="25.146"/>
-<vertex x="120.65" y="20.574"/>
+<vertex x="118.57" y="19.8374"/>
+<vertex x="118.57" y="25.7302"/>
+<vertex x="123.65" y="25.7302"/>
+<vertex x="123.65" y="19.8374"/>
 </polygon>
 <polygon width="0.3048" layer="1">
-<vertex x="77.47" y="20.574"/>
-<vertex x="77.47" y="25.146"/>
-<vertex x="82.55" y="25.146"/>
-<vertex x="82.55" y="20.574"/>
+<vertex x="77.47" y="20.0406"/>
+<vertex x="77.47" y="25.7556"/>
+<vertex x="82.55" y="25.7556"/>
+<vertex x="82.55" y="20.0406"/>
 </polygon>
-<wire x1="79.24" y1="18.542" x2="115.57" y2="18.542" width="0.8128" layer="16"/>
-<wire x1="79.24" y1="21.59" x2="79.24" y2="18.542" width="0.8128" layer="16"/>
-<wire x1="78.74" y1="18.542" x2="41.148" y2="18.542" width="0.8128" layer="16"/>
-<wire x1="41.148" y1="18.542" x2="38.1" y2="21.59" width="0.8128" layer="16"/>
-<polygon width="0.127" layer="1">
-<vertex x="13.97" y="38.862"/>
-<vertex x="13.97" y="48.26"/>
-<vertex x="6.858" y="48.26"/>
-<vertex x="6.858" y="40.64"/>
-<vertex x="9.398" y="40.64"/>
-<vertex x="9.398" y="38.862"/>
+<wire x1="39.8244" y1="24.13" x2="39.8244" y2="26.035" width="0.8128" layer="16"/>
+<wire x1="39.8244" y1="21.59" x2="39.8244" y2="20.1756" width="0.8128" layer="16"/>
+<wire x1="41.458" y1="18.542" x2="39.8244" y2="20.1756" width="0.8128" layer="16"/>
+<wire x1="79" y1="18.542" x2="78.74" y2="18.802" width="0.8128" layer="16"/>
+<wire x1="78.74" y1="18.802" x2="78.74" y2="21.59" width="0.8128" layer="16"/>
+<wire x1="119.84" y1="19.84" x2="119.84" y2="21.59" width="0.8128" layer="16"/>
+<wire x1="118.542" y1="18.542" x2="119.84" y2="19.84" width="0.8128" layer="16"/>
+<wire x1="79" y1="18.542" x2="118.542" y2="18.542" width="0.8128" layer="16"/>
+<wire x1="15.494" y1="39.37" x2="9" y2="39.37" width="0.8128" layer="16"/>
+<wire x1="79" y1="18.542" x2="41.458" y2="18.542" width="0.8128" layer="16"/>
+<wire x1="39.8244" y1="24.13" x2="39.8244" y2="21.59" width="0.8128" layer="16"/>
+<polygon width="0.254" layer="16">
+<vertex x="2.921" y="40.767"/>
+<vertex x="5.207" y="40.767"/>
+<vertex x="5.207" y="38.1"/>
+<vertex x="11.049" y="38.1"/>
+<vertex x="11.049" y="48.514"/>
+<vertex x="2.54" y="48.514"/>
+<vertex x="2.54" y="40.767"/>
 </polygon>
-<wire x1="38.1" y1="24.13" x2="38.1" y2="28.8544" width="0.8128" layer="16"/>
-<wire x1="38.1" y1="28.8544" x2="26.2382" y2="28.8544" width="0.8128" layer="16"/>
-<wire x1="26.2382" y1="28.8544" x2="25.7048" y2="29.3878" width="0.8128" layer="16"/>
-<wire x1="25.7048" y1="29.3878" x2="25.7048" y2="37.0332" width="0.8128" layer="16"/>
-<wire x1="23.368" y1="39.37" x2="10.46" y2="39.37" width="0.8128" layer="16"/>
-<wire x1="25.7048" y1="37.0332" x2="23.368" y2="39.37" width="0.8128" layer="16"/>
-<wire x1="122.92" y1="24.13" x2="120.38" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="122.92" y1="21.59" x2="122.92" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="120.38" y1="21.59" x2="120.38" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="115.57" y1="18.542" x2="120.38" y2="21.59" width="0" layer="19" extent="16-16"/>
-<wire x1="81.78" y1="21.59" x2="79.24" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="81.78" y1="24.13" x2="81.78" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="79.24" y1="24.13" x2="79.24" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="24.13" x2="40.64" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="24.13" x2="38.1" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="10.46" y1="41.91" x2="10.46" y2="39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="10.46" y1="44.45" x2="10.46" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="10.46" y1="46.99" x2="10.46" y2="44.45" width="0" layer="19" extent="1-1"/>
-<wire x1="7.92" y1="46.99" x2="10.46" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="5.38" y1="46.99" x2="7.92" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="7.92" y1="44.45" x2="10.46" y2="44.45" width="0" layer="19" extent="1-1"/>
-<wire x1="5.38" y1="44.45" x2="5.38" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="7.92" y1="41.91" x2="10.46" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="5.38" y1="41.91" x2="5.38" y2="44.45" width="0" layer="19" extent="1-1"/>
-<wire x1="7.92" y1="39.37" x2="10.46" y2="39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="78.74" y1="18.542" x2="79.24" y2="18.542" width="0.8128" layer="16"/>
+<polygon width="0.254" layer="1">
+<vertex x="2.54" y="48.514"/>
+<vertex x="11.176" y="48.514"/>
+<vertex x="11.176" y="41.783"/>
+<vertex x="2.54" y="41.783"/>
+</polygon>
+<wire x1="15.494" y1="39.37" x2="26.416" y2="28.448" width="0.8128" layer="16"/>
+<wire x1="26.416" y1="28.448" x2="37.719" y2="28.448" width="0.8128" layer="16"/>
+<wire x1="37.719" y1="28.448" x2="39.8244" y2="26.3426" width="0.8128" layer="16"/>
+<wire x1="39.8244" y1="26.3426" x2="39.8244" y2="26.035" width="0.8128" layer="16"/>
 </signal>
 <signal name="CAN_H">
 <contactref element="U$2" pad="P$6"/>
 <contactref element="U$3" pad="P$6"/>
 <contactref element="U$4" pad="P$6"/>
 <contactref element="U$1" pad="20"/>
-<contactref element="U$5" pad="2"/>
-<contactref element="U$7" pad="2"/>
-<wire x1="38.1" y1="62.3316" x2="5.5626" y2="62.3316" width="0.254" layer="16"/>
-<wire x1="59.7662" y1="62.3316" x2="38.1" y2="62.3316" width="0.254" layer="16"/>
-<wire x1="59.82" y1="62.3854" x2="59.7662" y2="62.3316" width="0.254" layer="16"/>
-<wire x1="59.82" y1="67.836" x2="59.82" y2="62.3854" width="0.254" layer="16"/>
-<wire x1="76.2" y1="62.3316" x2="59.7662" y2="62.3316" width="0.254" layer="16"/>
-<wire x1="77.9526" y1="62.3316" x2="76.2" y2="62.3316" width="0.254" layer="16"/>
-<wire x1="113.0808" y1="62.3316" x2="77.9526" y2="62.3316" width="0.254" layer="16"/>
-<wire x1="114.2626" y1="61.1498" x2="113.0808" y2="62.3316" width="0.254" layer="16"/>
-<wire x1="77.888" y1="67.836" x2="77.888" y2="62.3962" width="0.254" layer="16"/>
-<wire x1="77.9526" y1="62.3316" x2="77.888" y2="62.3962" width="0.254" layer="16"/>
-<wire x1="3" y1="40.434" x2="4.064" y2="39.37" width="0.254" layer="16"/>
-<wire x1="4.064" y1="39.37" x2="5.38" y2="39.37" width="0.254" layer="16"/>
-<wire x1="77.97" y1="54.61" x2="77.724" y2="54.61" width="0.254" layer="16"/>
-<wire x1="73.66" y1="56.134" x2="73.914" y2="55.88" width="0.254" layer="16"/>
-<wire x1="73.914" y1="55.88" x2="76.454" y2="55.88" width="0.254" layer="16"/>
-<wire x1="73.66" y1="56.134" x2="73.66" y2="57.658" width="0.254" layer="16"/>
-<wire x1="76.454" y1="55.88" x2="77.724" y2="54.61" width="0.254" layer="16"/>
-<wire x1="38.1" y1="60.198" x2="38.1" y2="62.3316" width="0.254" layer="16"/>
-<wire x1="76.2" y1="60.198" x2="76.2" y2="62.3316" width="0.254" layer="16"/>
-<wire x1="73.66" y1="57.658" x2="76.2" y2="60.198" width="0.254" layer="16"/>
-<wire x1="114.2626" y1="61.1498" x2="119.11" y2="54.61" width="0" layer="19" extent="16-16"/>
-<wire x1="36.83" y1="54.61" x2="38.1" y2="60.198" width="0" layer="19" extent="16-16"/>
-<wire x1="3" y1="40.434" x2="5.5626" y2="62.3316" width="0" layer="19" extent="16-16"/>
+<contactref element="U$19" pad="P$2"/>
+<contactref element="U$16" pad="P$2"/>
+<wire x1="34.8671" y1="63.754" x2="34.8671" y2="55.7573" width="0.254" layer="16"/>
+<wire x1="34.8671" y1="55.7573" x2="36.0144" y2="54.61" width="0.254" layer="16"/>
+<wire x1="117.3628" y1="55.8130625" x2="118.5658625" y2="54.61" width="0.254" layer="16"/>
+<wire x1="118.5658625" y1="54.61" x2="118.57" y2="54.61" width="0.254" layer="16"/>
+<wire x1="77.47" y1="54.61" x2="77.47" y2="55.0491375" width="0.254" layer="16"/>
+<wire x1="3.92" y1="39.37" x2="5.19" y2="40.64" width="0.254" layer="1"/>
+<wire x1="5.19" y1="40.64" x2="12.065" y2="40.64" width="0.254" layer="1"/>
+<wire x1="12.065" y1="40.64" x2="16.002" y2="44.577" width="0.254" layer="1"/>
+<wire x1="16.002" y1="44.577" x2="17.272" y2="45.847" width="0.254" layer="1"/>
+<wire x1="17.272" y1="45.847" x2="17.272" y2="59.563" width="0.254" layer="1"/>
+<wire x1="17.272" y1="59.563" x2="21.463" y2="63.754" width="0.254" layer="1"/>
+<wire x1="21.463" y1="63.754" x2="34.8671" y2="63.754" width="0.254" layer="1"/>
+<via x="34.8671" y="63.754" extent="1-16" drill="0.35"/>
+<wire x1="62.484" y1="63.754" x2="62.484" y2="70.984" width="0.254" layer="1"/>
+<wire x1="62.484" y1="70.984" x2="62.5" y2="71" width="0.254" layer="1"/>
+<wire x1="34.8671" y1="63.754" x2="62.484" y2="63.754" width="0.254" layer="1"/>
+<wire x1="62.484" y1="63.754" x2="73.5615" y2="63.754" width="0.254" layer="1"/>
+<wire x1="73.5615" y1="63.754" x2="76.2" y2="63.754" width="0.254" layer="1"/>
+<via x="117.348" y="63.754" extent="1-16" drill="0.35"/>
+<wire x1="76.2" y1="63.754" x2="81.534" y2="63.754" width="0.254" layer="1"/>
+<wire x1="81.534" y1="63.754" x2="117.348" y2="63.754" width="0.254" layer="1"/>
+<wire x1="117.348" y1="63.754" x2="117.3628" y2="63.7392" width="0.254" layer="16"/>
+<wire x1="117.3628" y1="63.7392" x2="117.3628" y2="55.8130625" width="0.254" layer="16"/>
+<wire x1="81.5" y1="71" x2="81.5" y2="63.788" width="0.254" layer="1"/>
+<wire x1="81.5" y1="63.788" x2="81.534" y2="63.754" width="0.254" layer="1"/>
+<wire x1="76.2" y1="56.3191375" x2="76.2" y2="63.754" width="0.254" layer="16"/>
+<via x="76.2" y="63.754" extent="1-16" drill="0.35"/>
+<wire x1="77.47" y1="55.0491375" x2="76.2" y2="56.3191375" width="0.254" layer="16"/>
 </signal>
 <signal name="CAN_L">
 <contactref element="U$2" pad="P$7"/>
 <contactref element="U$3" pad="P$7"/>
 <contactref element="U$4" pad="P$7"/>
 <contactref element="U$1" pad="21"/>
-<contactref element="U$5" pad="3"/>
-<contactref element="U$7" pad="3"/>
-<wire x1="80.51" y1="54.61" x2="78.6952" y2="56.4248" width="0.254" layer="1"/>
-<wire x1="40.64" y1="63.5762" x2="5.4356" y2="63.5762" width="0.254" layer="1"/>
-<wire x1="57.785" y1="63.5762" x2="40.64" y2="63.5762" width="0.254" layer="1"/>
-<wire x1="57.82" y1="63.6112" x2="57.785" y2="63.5762" width="0.254" layer="1"/>
-<wire x1="57.82" y1="67.836" x2="57.82" y2="63.6112" width="0.254" layer="1"/>
-<wire x1="75.819" y1="63.5762" x2="57.785" y2="63.5762" width="0.254" layer="1"/>
-<wire x1="75.888" y1="63.6452" x2="75.819" y2="63.5762" width="0.254" layer="1"/>
-<wire x1="75.888" y1="67.836" x2="75.888" y2="63.6452" width="0.254" layer="1"/>
-<wire x1="78.7654" y1="63.5762" x2="75.819" y2="63.5762" width="0.254" layer="1"/>
-<wire x1="114.681" y1="63.5762" x2="78.7654" y2="63.5762" width="0.254" layer="1"/>
-<wire x1="116.84" y1="61.4172" x2="114.681" y2="63.5762" width="0.254" layer="1"/>
-<wire x1="78.6952" y1="63.506" x2="78.6952" y2="56.4248" width="0.254" layer="1"/>
-<wire x1="78.7654" y1="63.5762" x2="78.6952" y2="63.506" width="0.254" layer="1"/>
-<wire x1="116.84" y1="61.4172" x2="116.8222" y2="61.3994" width="0.254" layer="1"/>
-<wire x1="2" y1="39.148" x2="4.318" y2="36.83" width="0.254" layer="1"/>
-<wire x1="4.318" y1="36.83" x2="5.38" y2="36.83" width="0.254" layer="1"/>
-<wire x1="40.6444" y1="63.5718" x2="40.64" y2="63.5762" width="0.254" layer="1"/>
-<wire x1="116.8222" y1="61.3994" x2="121.65" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="54.61" x2="40.64" y2="63.5762" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="39.148" x2="5.4356" y2="63.5762" width="0" layer="19" extent="1-1"/>
+<contactref element="U$19" pad="P$3"/>
+<contactref element="U$16" pad="P$3"/>
+<wire x1="3.92" y1="36.83" x2="5.09" y2="38" width="0.254" layer="1"/>
+<wire x1="5.09" y1="38" x2="11" y2="38" width="0.254" layer="1"/>
+<wire x1="11" y1="38" x2="18" y2="45" width="0.254" layer="1"/>
+<wire x1="18" y1="45" x2="18" y2="59" width="0.254" layer="1"/>
+<wire x1="18" y1="59" x2="22" y2="63" width="0.254" layer="1"/>
+<wire x1="37.3499" y1="63" x2="37.7563" y2="63" width="0.254" layer="1"/>
+<wire x1="65" y1="63" x2="78.574" y2="63" width="0.254" layer="1"/>
+<wire x1="78.574" y1="63" x2="78.7538" y2="63" width="0.254" layer="1"/>
+<wire x1="84" y1="63" x2="112" y2="63" width="0.254" layer="1"/>
+<wire x1="64.5" y1="63" x2="64.516" y2="63" width="0.254" layer="1"/>
+<wire x1="64.516" y1="63" x2="65" y2="63" width="0.254" layer="1"/>
+<wire x1="83.5" y1="63" x2="83.566" y2="63" width="0.254" layer="1"/>
+<wire x1="83.566" y1="63" x2="84" y2="63" width="0.254" layer="1"/>
+<wire x1="37.3499" y1="63" x2="37.3499" y2="56.1696" width="0.254" layer="1"/>
+<wire x1="37.3499" y1="56.1696" x2="38.5544" y2="54.9651" width="0.254" layer="1"/>
+<wire x1="78.7538" y1="63" x2="78.7538" y2="55.8487" width="0.254" layer="1"/>
+<wire x1="78.7538" y1="55.8487" x2="79.9925" y2="54.61" width="0.254" layer="1"/>
+<wire x1="112" y1="63" x2="112" y2="63" width="0.254" layer="1"/>
+<wire x1="112" y1="63" x2="118.0355" y2="63" width="0.254" layer="1"/>
+<wire x1="118.0355" y1="63" x2="119.9745" y2="61.061" width="0.254" layer="1"/>
+<wire x1="119.9745" y1="55.7455" x2="121.11" y2="54.61" width="0.254" layer="1"/>
+<wire x1="119.9745" y1="61.061" x2="119.9745" y2="55.7455" width="0.254" layer="1"/>
+<wire x1="79.9925" y1="54.61" x2="80.01" y2="54.61" width="0.254" layer="1"/>
+<wire x1="38.5544" y1="54.9651" x2="38.5544" y2="54.61" width="0.254" layer="1"/>
+<wire x1="65" y1="63" x2="64.516" y2="63" width="0.254" layer="1"/>
+<wire x1="64.516" y1="63" x2="37.7563" y2="63" width="0.254" layer="1"/>
+<wire x1="84" y1="63" x2="83.566" y2="63" width="0.254" layer="1"/>
+<wire x1="83.566" y1="63" x2="78.574" y2="63" width="0.254" layer="1"/>
+<wire x1="22" y1="63" x2="37.3499" y2="63" width="0.254" layer="1"/>
+<wire x1="64.5" y1="71" x2="64.5" y2="63.016" width="0.254" layer="16"/>
+<wire x1="64.5" y1="63.016" x2="64.516" y2="63" width="0.254" layer="16"/>
+<via x="64.516" y="63" extent="1-16" drill="0.35"/>
+<wire x1="83.5" y1="71" x2="83.5" y2="63.066" width="0.254" layer="16"/>
+<wire x1="83.5" y1="63.066" x2="83.566" y2="63" width="0.254" layer="16"/>
+<via x="83.566" y="63" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+5V">
-<contactref element="U$8" pad="4"/>
-<contactref element="U$8" pad="3"/>
-<contactref element="U$8" pad="2"/>
-<contactref element="U$8" pad="1"/>
 <contactref element="U$1" pad="22"/>
 <contactref element="U$1" pad="23"/>
 <contactref element="U$1" pad="24"/>
@@ -6519,10 +6514,6 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$1" pad="15"/>
 <contactref element="U$1" pad="16"/>
 <contactref element="U$1" pad="14"/>
-<contactref element="U$12" pad="4"/>
-<contactref element="U$12" pad="3"/>
-<contactref element="U$12" pad="2"/>
-<contactref element="U$12" pad="1"/>
 <polygon width="0.254" layer="1">
 <vertex x="43.688" y="10.414"/>
 <vertex x="43.688" y="2.794"/>
@@ -6531,20 +6522,43 @@ Please make sure your boards conform to these design rules.
 <vertex x="81.534" y="3.302"/>
 <vertex x="81.534" y="10.414"/>
 </polygon>
-<wire x1="52.401" y1="6.9966" x2="46.9516" y2="12.446" width="2.54" layer="16"/>
-<wire x1="18.288" y1="18.034" x2="18.288" y2="26.924" width="2.54" layer="16"/>
-<wire x1="18.288" y1="26.924" x2="16.002" y2="29.21" width="2.54" layer="16"/>
-<wire x1="16.002" y1="29.21" x2="10.46" y2="29.21" width="2.54" layer="16"/>
-<wire x1="46.9516" y1="12.446" x2="23.876" y2="12.446" width="2.54" layer="16"/>
-<wire x1="23.876" y1="12.446" x2="18.288" y2="18.034" width="2.54" layer="16"/>
 <polygon width="0.3048" layer="1">
-<vertex x="14.224" y="37.338"/>
-<vertex x="9.398" y="37.338"/>
-<vertex x="9.398" y="35.306"/>
-<vertex x="6.604" y="35.306"/>
-<vertex x="6.604" y="27.94"/>
-<vertex x="14.224" y="27.94"/>
+<vertex x="10.224" y="37.338"/>
+<vertex x="5.398" y="37.338"/>
+<vertex x="5.398" y="35.306"/>
+<vertex x="2.604" y="35.306"/>
+<vertex x="2.604" y="27.94"/>
+<vertex x="10.224" y="27.94"/>
 </polygon>
+<contactref element="U$21" pad="P$4"/>
+<contactref element="U$21" pad="P$3"/>
+<contactref element="U$21" pad="P$2"/>
+<contactref element="U$21" pad="P$1"/>
+<contactref element="U$14" pad="P$4"/>
+<contactref element="U$14" pad="P$2"/>
+<contactref element="U$14" pad="P$3"/>
+<contactref element="U$14" pad="P$1"/>
+<wire x1="51.01" y1="7.75" x2="40.25" y2="7.75" width="2.54" layer="16"/>
+<wire x1="32" y1="16" x2="24" y2="16" width="2.54" layer="16"/>
+<wire x1="24" y1="16" x2="18" y2="22" width="2.54" layer="16"/>
+<wire x1="18" y1="22" x2="18" y2="26" width="2.54" layer="16"/>
+<wire x1="18" y1="26" x2="14.79" y2="29.21" width="2.54" layer="16"/>
+<wire x1="40.25" y1="7.75" x2="32" y2="16" width="2.54" layer="16"/>
+<polygon width="0.3048" layer="16">
+<vertex x="2.5908" y="27.94"/>
+<vertex x="15.3924" y="27.94"/>
+<vertex x="15.3924" y="37.338"/>
+<vertex x="5.3848" y="37.338"/>
+<vertex x="5.3848" y="36.3728"/>
+<vertex x="4.318" y="35.306"/>
+<vertex x="2.6924" y="35.306"/>
+<vertex x="2.5654" y="35.306"/>
+<vertex x="2.5654" y="27.94"/>
+</polygon>
+<wire x1="14.79" y1="29.21" x2="14.79" y2="29.21" width="2.54" layer="16"/>
+<wire x1="14.79" y1="29.21" x2="14.79" y2="29.21" width="2.54" layer="16"/>
+<wire x1="14.79" y1="29.21" x2="11.3538" y2="29.21" width="2.54" layer="16"/>
+<wire x1="11.3538" y1="29.21" x2="11.3538" y2="29.2354" width="2.54" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
