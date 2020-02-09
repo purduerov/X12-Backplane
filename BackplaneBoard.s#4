@@ -2024,23 +2024,6 @@ STAND-OFF</description>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
-<net name="PROG_SEL" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$5"/>
-<wire x1="279.4" y1="132.08" x2="276.86" y2="132.08" width="0.1524" layer="91"/>
-<label x="271.78" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="P$5"/>
-<wire x1="406.4" y1="132.08" x2="403.86" y2="132.08" width="0.1524" layer="91"/>
-<label x="398.78" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="P$5"/>
-<wire x1="279.4" y1="53.34" x2="276.86" y2="53.34" width="0.1524" layer="91"/>
-<label x="271.78" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="CAN_H" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$6"/>
