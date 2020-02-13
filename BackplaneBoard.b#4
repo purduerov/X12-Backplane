@@ -6515,19 +6515,19 @@ Please make sure your boards conform to these design rules.
 <wire x1="33.83" y1="54.61" x2="36.624" y2="51.816" width="0.2032" layer="16"/>
 <wire x1="36.624" y1="51.816" x2="56.896" y2="51.816" width="0.2032" layer="16"/>
 <via x="56.896" y="51.816" extent="1-16" drill="0.35"/>
-<contactref element="U$5" pad="P$4"/>
 <wire x1="56.896" y1="51.816" x2="82.804" y2="51.816" width="0.2032" layer="1"/>
 <via x="82.804" y="51.816" extent="1-16" drill="0.35"/>
 <wire x1="82.804" y1="51.816" x2="97.282" y2="51.816" width="0.2032" layer="16"/>
 <via x="97.282" y="51.816" extent="1-16" drill="0.35"/>
-<wire x1="97.282" y1="51.816" x2="133.447" y2="70.7453" width="0" layer="19" extent="1-1"/>
+<contactref element="U$5" pad="P$2"/>
+<wire x1="97.282" y1="51.816" x2="129.447" y2="70.7453" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PROG_3">
 <contactref element="U$4" pad="P$5"/>
-<contactref element="U$5" pad="P$2"/>
 <wire x1="116.03" y1="54.61" x2="117.808" y2="52.832" width="0.2032" layer="16"/>
 <wire x1="117.808" y1="52.832" x2="137.668" y2="52.832" width="0.2032" layer="16"/>
-<wire x1="137.668" y1="52.832" x2="129.447" y2="70.7453" width="0" layer="19" extent="16-16"/>
+<contactref element="U$5" pad="P$4"/>
+<wire x1="137.668" y1="52.832" x2="133.447" y2="70.7453" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PROG_2">
 <contactref element="U$3" pad="P$5"/>

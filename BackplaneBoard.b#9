@@ -6024,6 +6024,7 @@ Please make sure your boards conform to these design rules.
 <element name="U$20" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="98.5" y="43"/>
 <element name="U$21" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="76.985" y="7.695" rot="R180"/>
 <element name="U$22" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="96.5" y="8" rot="R180"/>
+<element name="U$5" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="-0.962" y="-4.829"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -6511,12 +6512,18 @@ Please make sure your boards conform to these design rules.
 </signal>
 <signal name="PROG_1">
 <contactref element="U$2" pad="P$5"/>
+<contactref element="U$5" pad="P$1"/>
+<wire x1="-0.962" y1="-4.829" x2="33.83" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PROG_3">
 <contactref element="U$4" pad="P$5"/>
+<contactref element="U$5" pad="P$3"/>
+<wire x1="3.038" y1="-4.829" x2="116.03" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PROG_2">
 <contactref element="U$3" pad="P$5"/>
+<contactref element="U$5" pad="P$2"/>
+<wire x1="1.038" y1="-4.829" x2="74.93" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
