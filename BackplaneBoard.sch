@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="8.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -785,18 +785,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.
 Devices Using
 STAND-OFF</description>
-<packageinstances>
-<packageinstance name="STAND-OFF"/>
-</packageinstances>
 </package3d>
 <package3d name="STAND-OFF-TIGHT" urn="urn:adsk.eagle:package:38629/1" type="box" library_version="1">
 <description>Standoff (#4 Screw) - Tight fit around screw body
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.
 Devices Using
 STAND-OFF</description>
-<packageinstances>
-<packageinstance name="STAND-OFF-TIGHT"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1076,6 +1070,7 @@ STAND-OFF</description>
 <part name="GND20" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="P+24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="U$5" library="PHConnector" deviceset="PHCONNECTOR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1089,6 +1084,7 @@ STAND-OFF</description>
 <text x="83.82" y="27.94" size="1.778" layer="91">5V to Logic</text>
 <text x="165.1" y="86.36" size="1.778" layer="91">+5V Fan</text>
 <text x="165.1" y="55.88" size="1.778" layer="91">GND Fan</text>
+<text x="27.94" y="104.14" size="1.778" layer="91">Programmer</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
@@ -1175,6 +1171,7 @@ STAND-OFF</description>
 <instance part="GND20" gate="G$1" x="160.02" y="33.02"/>
 <instance part="P+24" gate="1" x="157.48" y="83.82"/>
 <instance part="P+25" gate="1" x="78.74" y="55.88"/>
+<instance part="U$5" gate="G$1" x="33.02" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -2193,6 +2190,42 @@ STAND-OFF</description>
 <wire x1="162.56" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <junction x="157.48" y="78.74"/>
 <pinref part="P+24" gate="1" pin="+5V"/>
+</segment>
+</net>
+<net name="PROG_1" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$5"/>
+<wire x1="279.4" y1="132.08" x2="271.78" y2="132.08" width="0.1524" layer="91"/>
+<label x="271.78" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="P$2"/>
+<wire x1="27.94" y1="93.98" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
+<label x="10.16" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PROG_3" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$5"/>
+<wire x1="279.4" y1="53.34" x2="274.32" y2="53.34" width="0.1524" layer="91"/>
+<label x="271.78" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="P$4"/>
+<wire x1="27.94" y1="83.82" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
+<label x="10.16" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PROG_2" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$5"/>
+<wire x1="406.4" y1="132.08" x2="398.78" y2="132.08" width="0.1524" layer="91"/>
+<label x="396.24" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="P$3"/>
+<wire x1="27.94" y1="88.9" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
+<label x="10.16" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
