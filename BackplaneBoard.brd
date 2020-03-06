@@ -5792,10 +5792,10 @@ STAND-OFF</description>
 <library name="PHConnector">
 <packages>
 <package name="PHCONNECTOR">
-<pad name="P$1" x="0" y="0" drill="0.5"/>
-<pad name="P$2" x="2" y="0" drill="0.5"/>
-<pad name="P$3" x="4" y="0" drill="0.5"/>
-<pad name="P$4" x="6" y="0" drill="0.5"/>
+<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.6"/>
+<pad name="P$2" x="2" y="0" drill="0.9" diameter="1.5"/>
+<pad name="P$3" x="4" y="0" drill="0.9" diameter="1.5"/>
+<pad name="P$4" x="6" y="0" drill="0.9" diameter="1.5"/>
 <wire x1="-1.95" y1="-1.7" x2="-1.95" y2="2.8" width="0.127" layer="21"/>
 <wire x1="-1.95" y1="2.8" x2="7.95" y2="2.8" width="0.127" layer="21"/>
 <wire x1="7.95" y1="2.8" x2="7.95" y2="-1.7" width="0.127" layer="21"/>
@@ -6030,6 +6030,7 @@ Please make sure your boards conform to these design rules.
 <element name="U$20" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="98.5" y="43"/>
 <element name="U$21" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="76.985" y="7.695" rot="R180"/>
 <element name="U$22" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="96.5" y="8" rot="R180"/>
+<element name="U$5" library="PHConnector" package="PHCONNECTOR" value="PHCONNECTOR" x="23.228" y="7.877" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -6559,6 +6560,15 @@ Please make sure your boards conform to these design rules.
 <wire x1="14.79" y1="29.21" x2="14.79" y2="29.21" width="2.54" layer="16"/>
 <wire x1="14.79" y1="29.21" x2="11.3538" y2="29.21" width="2.54" layer="16"/>
 <wire x1="11.3538" y1="29.21" x2="11.3538" y2="29.2354" width="2.54" layer="16"/>
+</signal>
+<signal name="PROG_1">
+<contactref element="U$5" pad="P$2"/>
+</signal>
+<signal name="PROG_2">
+<contactref element="U$5" pad="P$3"/>
+</signal>
+<signal name="PROG_3">
+<contactref element="U$5" pad="P$4"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
