@@ -1373,7 +1373,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="GND13" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND14" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -1440,6 +1439,9 @@ NRST?
 SWDIO?
 SWCLK?
 </text>
+<text x="78.74" y="248.92" size="1.778" layer="91">PROG_1 high chooses esc 1 to program
+PROG_1 low and PROG_3 high chooses esc 3
+PROG_1 low and PROG_3 low chooses esc 2</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
@@ -1500,7 +1502,6 @@ SWCLK?
 <instance part="P+2" gate="1" x="325.12" y="114.3"/>
 <instance part="P+6" gate="1" x="378.46" y="261.62"/>
 <instance part="P+10" gate="1" x="325.12" y="35.56"/>
-<instance part="GND13" gate="G$1" x="116.84" y="137.16"/>
 <instance part="GND14" gate="G$1" x="149.86" y="137.16"/>
 <instance part="P+13" gate="1" x="154.94" y="134.62"/>
 <instance part="P+14" gate="1" x="111.76" y="134.62"/>
@@ -1843,7 +1844,6 @@ SWCLK?
 <junction x="116.84" y="139.7"/>
 <pinref part="U$1" gate="G$2" pin="12"/>
 <wire x1="121.92" y1="137.16" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="GND13" gate="G$1" pin="GND"/>
 <junction x="116.84" y="137.16"/>
 <pinref part="GND15" gate="G$1" pin="GND"/>
 </segment>
@@ -2639,11 +2639,6 @@ SWCLK?
 <label x="15.24" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="S"/>
-<wire x1="152.4" y1="231.14" x2="137.16" y2="231.14" width="0.1524" layer="91"/>
-<label x="137.16" y="231.14" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="P$5"/>
 <wire x1="330.2" y1="279.4" x2="320.04" y2="279.4" width="0.1524" layer="91"/>
 <label x="320.04" y="279.4" size="1.778" layer="95"/>
@@ -2659,6 +2654,11 @@ SWCLK?
 <pinref part="U$4" gate="G$1" pin="P$5"/>
 <wire x1="279.4" y1="53.34" x2="271.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="271.78" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="S"/>
+<wire x1="152.4" y1="231.14" x2="137.16" y2="231.14" width="0.1524" layer="91"/>
+<label x="137.16" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO_IN" class="0">
@@ -2685,16 +2685,26 @@ SWCLK?
 <label x="27.94" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NRST_IN" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="3A"/>
-<wire x1="177.8" y1="241.3" x2="187.96" y2="241.3" width="0.1524" layer="91"/>
-<label x="180.34" y="241.3" size="1.778" layer="95"/>
-</segment>
+<net name="NRST" class="0">
 <segment>
 <pinref part="U$22" gate="G$1" pin="P$2"/>
 <wire x1="40.64" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
 <label x="30.48" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$20"/>
+<wire x1="312.42" y1="127" x2="325.12" y2="127" width="0.1524" layer="91"/>
+<label x="317.5" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$20"/>
+<wire x1="312.42" y1="48.26" x2="325.12" y2="48.26" width="0.1524" layer="91"/>
+<label x="317.5" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$20"/>
+<wire x1="363.22" y1="274.32" x2="378.46" y2="274.32" width="0.1524" layer="91"/>
+<label x="368.3" y="274.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO_1" class="0">
@@ -2719,30 +2729,6 @@ SWCLK?
 <pinref part="U2" gate="G$1" pin="1A"/>
 <wire x1="152.4" y1="223.52" x2="137.16" y2="223.52" width="0.1524" layer="91"/>
 <label x="132.08" y="223.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="NRST_1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="3B2"/>
-<wire x1="177.8" y1="243.84" x2="187.96" y2="243.84" width="0.1524" layer="91"/>
-<label x="180.34" y="243.84" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$20"/>
-<wire x1="312.42" y1="127" x2="325.12" y2="127" width="0.1524" layer="91"/>
-<label x="317.5" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="NRST_MUX2" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="3B1"/>
-<wire x1="177.8" y1="246.38" x2="187.96" y2="246.38" width="0.1524" layer="91"/>
-<label x="180.34" y="246.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="3A"/>
-<wire x1="177.8" y1="213.36" x2="193.04" y2="213.36" width="0.1524" layer="91"/>
-<label x="185.42" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK_1" class="0">
@@ -2771,74 +2757,50 @@ SWCLK?
 </net>
 <net name="SWCLK_2" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="2B2"/>
-<wire x1="152.4" y1="218.44" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
-<label x="137.16" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="P$22"/>
 <wire x1="363.22" y1="264.16" x2="378.46" y2="264.16" width="0.1524" layer="91"/>
 <label x="368.3" y="264.16" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="SWCLK_3" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="2B1"/>
 <wire x1="152.4" y1="220.98" x2="137.16" y2="220.98" width="0.1524" layer="91"/>
 <label x="137.16" y="220.98" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="SWCLK_3" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="P$22"/>
 <wire x1="312.42" y1="38.1" x2="325.12" y2="38.1" width="0.1524" layer="91"/>
 <label x="317.5" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="2B2"/>
+<wire x1="152.4" y1="218.44" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
+<label x="137.16" y="218.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SWDIO_2" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="1B2"/>
-<wire x1="152.4" y1="226.06" x2="137.16" y2="226.06" width="0.1524" layer="91"/>
-<label x="137.16" y="226.06" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="P$21"/>
 <wire x1="363.22" y1="269.24" x2="378.46" y2="269.24" width="0.1524" layer="91"/>
 <label x="368.3" y="269.24" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="SWDIO_3" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="1B1"/>
 <wire x1="152.4" y1="228.6" x2="137.16" y2="228.6" width="0.1524" layer="91"/>
 <label x="137.16" y="228.6" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="SWDIO_3" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="P$21"/>
 <wire x1="312.42" y1="43.18" x2="325.12" y2="43.18" width="0.1524" layer="91"/>
 <label x="317.5" y="43.18" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="NRST_2" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="3B2"/>
-<wire x1="177.8" y1="215.9" x2="193.04" y2="215.9" width="0.1524" layer="91"/>
-<label x="185.42" y="215.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="P$20"/>
-<wire x1="363.22" y1="274.32" x2="378.46" y2="274.32" width="0.1524" layer="91"/>
-<label x="368.3" y="274.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="NRST_3" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="3B1"/>
-<wire x1="177.8" y1="218.44" x2="193.04" y2="218.44" width="0.1524" layer="91"/>
-<label x="185.42" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="P$20"/>
-<wire x1="312.42" y1="48.26" x2="325.12" y2="48.26" width="0.1524" layer="91"/>
-<label x="317.5" y="48.26" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="1B2"/>
+<wire x1="152.4" y1="226.06" x2="137.16" y2="226.06" width="0.1524" layer="91"/>
+<label x="137.16" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
