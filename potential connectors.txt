@@ -1,1 +1,47 @@
 https://www.digikey.com/product-detail/en/molex/0014600052/WM24821-ND/313721
+	https://www.molex.com/molex/products/part-detail/rb_cbl_wr_trp_conn/0014600052
+	https://www.molex.com/molex/products/part-detail/pcb_headers/0705550004
+	
+https://www.samtec.com/cables/discrete/discrete-wire/power-0250
+
+https://www.te.com/usa-en/product-3-640440-4.html
+
+
+https://www.digikey.com/products/en?mpart=37203-62B3-003PL&v=19
+https://www.digikey.com/products/en?mpart=37204-1BE0-004%20PL&v=19
+
+
+Samtec no crimp 
+	IDSD-02-S-02.00
+	IDSD-04-S-02.00
+	
+	tSW-102-07-G-D
+	tsw-104-07-g-d
+	
+	tsm-102-01-f-mt
+	tsm-104-01-f-mt
+	
+te
+	1986692-8
+	284512-8
+	1-282834-0
+	1811444-1
+	1811398-1
+	2318582-4
+	2318136-4
+	1-2008552-2
+	2008552-3
+	1-2213629-2
+	282834-4
+	2213936-4 (unsampleable)
+	2213932-4 (unsampleable)
+	
+amphenol 
+	
+	
+	
+3M
+	37104-A124-00E-MB
+	37204-62B3-004PL
+	37204-1AE0-004 PL
+	

@@ -1537,8 +1537,8 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <instance part="GND17" gate="G$1" x="149.86" y="238.76"/>
 <instance part="+3V10" gate="G$1" x="180.34" y="264.16"/>
 <instance part="+3V11" gate="G$1" x="180.34" y="236.22"/>
-<instance part="GND21" gate="G$1" x="182.88" y="228.6"/>
-<instance part="GND22" gate="G$1" x="182.88" y="256.54"/>
+<instance part="GND21" gate="G$1" x="182.88" y="213.36"/>
+<instance part="GND22" gate="G$1" x="182.88" y="241.3"/>
 <instance part="C2" gate="G$1" x="203.2" y="254.508" smashed="yes">
 <attribute name="NAME" x="204.724" y="257.429" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="204.724" y="252.349" size="1.778" layer="96" font="vector"/>
@@ -1913,12 +1913,28 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <segment>
 <pinref part="U2" gate="G$1" pin="OE"/>
 <wire x1="177.8" y1="228.6" x2="182.88" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="228.6" x2="182.88" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="4A"/>
+<wire x1="182.88" y1="220.98" x2="182.88" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="220.98" x2="182.88" y2="220.98" width="0.1524" layer="91"/>
+<junction x="182.88" y="220.98"/>
+<pinref part="U2" gate="G$1" pin="3A"/>
+<wire x1="177.8" y1="213.36" x2="182.88" y2="213.36" width="0.1524" layer="91"/>
+<junction x="182.88" y="213.36"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="OE"/>
 <wire x1="177.8" y1="256.54" x2="182.88" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="256.54" x2="182.88" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="4A"/>
+<wire x1="182.88" y1="248.92" x2="182.88" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="248.92" x2="182.88" y2="248.92" width="0.1524" layer="91"/>
+<junction x="182.88" y="248.92"/>
+<pinref part="U1" gate="G$1" pin="3A"/>
+<wire x1="177.8" y1="241.3" x2="182.88" y2="241.3" width="0.1524" layer="91"/>
+<junction x="182.88" y="241.3"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
