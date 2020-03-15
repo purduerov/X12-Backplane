@@ -5624,62 +5624,62 @@ Grant Geyer</text>
 <wire x1="-26.3775" y1="9.8" x2="-22.6275" y2="9.8" width="0.254" layer="21"/>
 <wire x1="-22.6275" y1="9.8" x2="-21.6275" y2="8.8" width="0.254" layer="21" curve="-90"/>
 <wire x1="-21.6275" y1="8.8" x2="-21.6275" y2="7.74" width="0.254" layer="21"/>
-<pad name="1" x="8.89" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="2" x="6.35" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="3" x="3.81" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="4" x="1.27" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="5" x="-1.27" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="6" x="-3.81" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="7" x="-6.35" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="8" x="-8.89" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="9" x="8.89" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="10" x="6.35" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="11" x="3.81" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="12" x="1.27" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="13" x="-1.27" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="14" x="-3.81" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="15" x="-6.35" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="16" x="-8.89" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="17" x="8.89" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="18" x="6.35" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="19" x="3.81" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="20" x="1.27" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="21" x="-1.27" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="22" x="-3.81" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="23" x="-6.35" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="24" x="-8.89" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="P1-1" x="22.56" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P1-2" x="22.56" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P1-3" x="22.56" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P1-4" x="22.56" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P1-5" x="19.56" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P1-6" x="19.56" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P1-7" x="19.56" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P1-8" x="19.56" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P2-1" x="17.06" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P2-2" x="17.06" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P2-3" x="17.06" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P2-4" x="17.06" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P2-5" x="14.06" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P2-6" x="14.06" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P2-7" x="14.06" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P2-8" x="14.06" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P3-1" x="-13.7" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P3-2" x="-13.7" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P3-3" x="-13.7" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P3-4" x="-13.7" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P3-5" x="-16.7" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P3-6" x="-16.7" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P3-7" x="-16.7" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P3-8" x="-16.7" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P4-1" x="-19.2" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P4-2" x="-19.2" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P4-3" x="-19.2" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P4-4" x="-19.2" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P4-5" x="-22.2" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P4-6" x="-22.2" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P4-7" x="-22.2" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P4-8" x="-22.2" y="3.75" drill="1.02" diameter="1.22"/>
+<pad name="1" x="8.89" y="-2.84" drill="1.02" diameter="1.6764"/>
+<pad name="2" x="6.35" y="-2.84" drill="1.02" diameter="1.6764"/>
+<pad name="3" x="3.81" y="-2.84" drill="1.02" diameter="1.6764"/>
+<pad name="4" x="1.27" y="-2.84" drill="1.02" diameter="1.6764"/>
+<pad name="5" x="-1.27" y="-2.84" drill="1.02" diameter="1.6764"/>
+<pad name="6" x="-3.81" y="-2.84" drill="1.02" diameter="1.6764"/>
+<pad name="7" x="-6.35" y="-2.84" drill="1.02" diameter="1.6764"/>
+<pad name="8" x="-8.89" y="-2.84" drill="1.02" diameter="1.6764"/>
+<pad name="9" x="8.89" y="-0.3" drill="1.02" diameter="1.6764"/>
+<pad name="10" x="6.35" y="-0.3" drill="1.02" diameter="1.6764"/>
+<pad name="11" x="3.81" y="-0.3" drill="1.02" diameter="1.6764"/>
+<pad name="12" x="1.27" y="-0.3" drill="1.02" diameter="1.6764"/>
+<pad name="13" x="-1.27" y="-0.3" drill="1.02" diameter="1.6764"/>
+<pad name="14" x="-3.81" y="-0.3" drill="1.02" diameter="1.6764"/>
+<pad name="15" x="-6.35" y="-0.3" drill="1.02" diameter="1.6764"/>
+<pad name="16" x="-8.89" y="-0.3" drill="1.02" diameter="1.6764"/>
+<pad name="17" x="8.89" y="2.24" drill="1.02" diameter="1.6764"/>
+<pad name="18" x="6.35" y="2.24" drill="1.02" diameter="1.6764"/>
+<pad name="19" x="3.81" y="2.24" drill="1.02" diameter="1.6764"/>
+<pad name="20" x="1.27" y="2.24" drill="1.02" diameter="1.6764"/>
+<pad name="21" x="-1.27" y="2.24" drill="1.02" diameter="1.6764"/>
+<pad name="22" x="-3.81" y="2.24" drill="1.02" diameter="1.6764"/>
+<pad name="23" x="-6.35" y="2.24" drill="1.02" diameter="1.6764"/>
+<pad name="24" x="-8.89" y="2.24" drill="1.02" diameter="1.6764"/>
+<pad name="P1-1" x="22.56" y="-3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P1-2" x="22.56" y="-1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P1-3" x="22.56" y="1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P1-4" x="22.56" y="3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P1-5" x="19.56" y="-3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P1-6" x="19.56" y="-1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P1-7" x="19.56" y="1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P1-8" x="19.56" y="3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P2-1" x="17.06" y="-3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P2-2" x="17.06" y="-1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P2-3" x="17.06" y="1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P2-4" x="17.06" y="3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P2-5" x="14.06" y="-3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P2-6" x="14.06" y="-1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P2-7" x="14.06" y="1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P2-8" x="14.06" y="3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P3-1" x="-13.7" y="-3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P3-2" x="-13.7" y="-1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P3-3" x="-13.7" y="1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P3-4" x="-13.7" y="3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P3-5" x="-16.7" y="-3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P3-6" x="-16.7" y="-1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P3-7" x="-16.7" y="1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P3-8" x="-16.7" y="3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P4-1" x="-19.2" y="-3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P4-2" x="-19.2" y="-1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P4-3" x="-19.2" y="1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P4-4" x="-19.2" y="3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P4-5" x="-22.2" y="-3.75" drill="1.02" diameter="1.6764"/>
+<pad name="P4-6" x="-22.2" y="-1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P4-7" x="-22.2" y="1.25" drill="1.02" diameter="1.6764"/>
+<pad name="P4-8" x="-22.2" y="3.75" drill="1.02" diameter="1.6764"/>
 <text x="19.55" y="8.39" size="1.27" layer="21">P1</text>
 <text x="7.5" y="-8.5" size="1.27" layer="21">1</text>
 <text x="-8.3" y="-8.5" size="1.27" layer="21">8</text>
@@ -6261,16 +6261,20 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$1" pad="P2-6"/>
 <contactref element="U$1" pad="P2-7"/>
 <contactref element="U$1" pad="P2-8"/>
-<polygon width="0.3048" layer="16">
-<vertex x="11.24" y="50.546"/>
-<vertex x="11.24" y="61.214"/>
-<vertex x="1.334" y="61.214"/>
-<vertex x="1.334" y="50.546"/>
+<polygon width="0.6096" layer="16">
+<vertex x="12.383" y="50.546"/>
+<vertex x="12.383" y="63.119"/>
+<vertex x="-1.46" y="63.119"/>
+<vertex x="-1.46" y="50.546"/>
 </polygon>
-<polygon width="0.3556" layer="16" isolate="0.4064" rank="3">
+<polygon width="0.3556" layer="16" isolate="0.6096" rank="3">
 <vertex x="140.208" y="79.2988"/>
 <vertex x="140.208" y="-1.397"/>
 <vertex x="-0.889" y="-1.397"/>
+<vertex x="-0.889" y="50.927"/>
+<vertex x="11.684" y="50.927"/>
+<vertex x="11.684" y="62.484"/>
+<vertex x="-0.889" y="62.484"/>
 <vertex x="-0.889" y="79.2988"/>
 </polygon>
 <polygon width="0.254" layer="1" isolate="0.508">
@@ -6323,6 +6327,9 @@ Please make sure your boards conform to these design rules.
 <via x="26.67" y="66.167" extent="1-16" drill="0.35"/>
 <via x="21.59" y="66.802" extent="1-16" drill="0.35"/>
 <via x="17.145" y="68.072" extent="1-16" drill="0.35"/>
+<via x="112.395" y="67.818" extent="1-16" drill="0.35"/>
+<via x="114.935" y="73.279" extent="1-16" drill="0.35"/>
+<via x="128.524" y="62.103" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+12V">
 <contactref element="U$2" pad="P$E"/>
@@ -6407,7 +6414,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$1" pad="P3-4"/>
 <contactref element="U$1" pad="P3-3"/>
 <contactref element="U$1" pad="P3-2"/>
-<polygon width="0.4064" layer="1" isolate="0.6096" rank="2">
+<polygon width="0.4064" layer="1" isolate="0.762" rank="2">
 <vertex x="-1.524" y="26.416"/>
 <vertex x="12.192" y="26.416"/>
 <vertex x="12.827" y="27.051"/>
@@ -6528,11 +6535,11 @@ Please make sure your boards conform to these design rules.
 <wire x1="14.859" y1="60.96" x2="14.859" y2="49.276" width="0.508" layer="1"/>
 <wire x1="12.954" y1="47.371" x2="11.557" y2="47.371" width="0.508" layer="1"/>
 <wire x1="14.859" y1="49.276" x2="12.954" y2="47.371" width="0.508" layer="1"/>
-<wire x1="39.8244" y1="21.59" x2="39.8244" y2="20.5006" width="0.8128" layer="1"/>
-<wire x1="42.037" y1="18.288" x2="77.851" y2="18.288" width="0.8128" layer="1"/>
+<wire x1="39.8244" y1="21.59" x2="39.8244" y2="21.0086" width="0.8128" layer="1"/>
+<wire x1="42.545" y1="18.288" x2="77.851" y2="18.288" width="0.8128" layer="1"/>
 <wire x1="77.851" y1="18.288" x2="78.74" y2="19.177" width="0.8128" layer="1"/>
 <wire x1="78.74" y1="19.177" x2="78.74" y2="21.59" width="0.8128" layer="1"/>
-<wire x1="39.8244" y1="20.5006" x2="42.037" y2="18.288" width="0.8128" layer="1"/>
+<wire x1="39.8244" y1="21.0086" x2="42.545" y2="18.288" width="0.8128" layer="1"/>
 <wire x1="81.28" y1="21.59" x2="81.28" y2="19.431" width="0.8128" layer="1"/>
 <wire x1="82.423" y1="18.288" x2="117.856" y2="18.288" width="0.8128" layer="1"/>
 <wire x1="117.856" y1="18.288" x2="119.84" y2="20.272" width="0.8128" layer="1"/>
