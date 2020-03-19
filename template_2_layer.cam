@@ -160,7 +160,8 @@
                     "layers": [
                         21,
                         25,
-                        200
+                        200,
+                        201
                     ],
                     "milling": false,
                     "name": "Silkscreen Top",
