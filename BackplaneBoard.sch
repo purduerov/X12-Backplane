@@ -1425,6 +1425,14 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="gpio" width="0.2032" drill="0">
+</class>
+<class number="2" name="micro_power" width="0.8128" drill="0">
+</class>
+<class number="3" name="pi_power" width="1.778" drill="0">
+</class>
+<class number="4" name="thruster_power" width="5.08" drill="0">
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -2403,7 +2411,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <pinref part="P+18" gate="1" pin="+12V"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="2">
 <segment>
 <pinref part="U$2" gate="G$2" pin="P$G"/>
 <wire x1="375.92" y1="129.54" x2="365.76" y2="129.54" width="0.1524" layer="91"/>
@@ -2544,7 +2552,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <pinref part="J3" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="CAN_H" class="0">
+<net name="CAN_H" class="1">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$6"/>
 <wire x1="279.4" y1="127" x2="276.86" y2="127" width="0.1524" layer="91"/>
@@ -2581,7 +2589,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="CAN_L" class="0">
+<net name="CAN_L" class="1">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$7"/>
 <wire x1="279.4" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
@@ -2618,7 +2626,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="3">
 <segment>
 <pinref part="U$1" gate="G$1" pin="22"/>
 <wire x1="83.82" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
@@ -2684,7 +2692,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <pinref part="P+19" gate="1" pin="+5V"/>
 </segment>
 </net>
-<net name="PROG_1" class="0">
+<net name="PROG_1" class="1">
 <segment>
 <wire x1="15.24" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="15.24" y="88.9" size="1.778" layer="95"/>
@@ -2701,7 +2709,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="269.24" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PROG_2" class="0">
+<net name="PROG_2" class="1">
 <segment>
 <wire x1="27.94" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
 <label x="15.24" y="86.36" size="1.778" layer="95"/>
@@ -2713,7 +2721,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="320.04" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PROG_3" class="0">
+<net name="PROG_3" class="1">
 <segment>
 <wire x1="27.94" y1="83.82" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
 <label x="15.24" y="83.82" size="1.778" layer="95"/>
@@ -2730,7 +2738,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="137.16" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWDIO_IN" class="0">
+<net name="SWDIO_IN" class="1">
 <segment>
 <pinref part="U1" gate="G$1" pin="1A"/>
 <wire x1="152.4" y1="251.46" x2="137.16" y2="251.46" width="0.1524" layer="91"/>
@@ -2742,7 +2750,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="15.24" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWCLK_IN" class="0">
+<net name="SWCLK_IN" class="1">
 <segment>
 <pinref part="U1" gate="G$1" pin="2A"/>
 <wire x1="152.4" y1="243.84" x2="137.16" y2="243.84" width="0.1524" layer="91"/>
@@ -2754,7 +2762,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="15.24" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NRST" class="0">
+<net name="NRST" class="1">
 <segment>
 <wire x1="27.94" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
 <label x="17.78" y="78.74" size="1.778" layer="95"/>
@@ -2776,7 +2784,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="368.3" y="274.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWDIO_1" class="0">
+<net name="SWDIO_1" class="1">
 <segment>
 <pinref part="U1" gate="G$1" pin="1B2"/>
 <wire x1="152.4" y1="254" x2="137.16" y2="254" width="0.1524" layer="91"/>
@@ -2788,7 +2796,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="317.5" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWDIO_MUX2" class="0">
+<net name="SWDIO_MUX2" class="1">
 <segment>
 <pinref part="U1" gate="G$1" pin="1B1"/>
 <wire x1="152.4" y1="256.54" x2="137.16" y2="256.54" width="0.1524" layer="91"/>
@@ -2800,7 +2808,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="132.08" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWCLK_1" class="0">
+<net name="SWCLK_1" class="1">
 <segment>
 <pinref part="U1" gate="G$1" pin="2B2"/>
 <wire x1="152.4" y1="246.38" x2="137.16" y2="246.38" width="0.1524" layer="91"/>
@@ -2812,7 +2820,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="317.5" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWCLK_MUX2" class="0">
+<net name="SWCLK_MUX2" class="1">
 <segment>
 <pinref part="U1" gate="G$1" pin="2B1"/>
 <wire x1="152.4" y1="248.92" x2="137.16" y2="248.92" width="0.1524" layer="91"/>
@@ -2824,7 +2832,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="132.08" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWCLK_2" class="0">
+<net name="SWCLK_2" class="1">
 <segment>
 <pinref part="U$3" gate="G$1" pin="P$22"/>
 <wire x1="363.22" y1="264.16" x2="378.46" y2="264.16" width="0.1524" layer="91"/>
@@ -2836,7 +2844,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="137.16" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWCLK_3" class="0">
+<net name="SWCLK_3" class="1">
 <segment>
 <pinref part="U$4" gate="G$1" pin="P$22"/>
 <wire x1="312.42" y1="38.1" x2="325.12" y2="38.1" width="0.1524" layer="91"/>
@@ -2848,7 +2856,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="137.16" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWDIO_2" class="0">
+<net name="SWDIO_2" class="1">
 <segment>
 <pinref part="U$3" gate="G$1" pin="P$21"/>
 <wire x1="363.22" y1="269.24" x2="378.46" y2="269.24" width="0.1524" layer="91"/>
@@ -2860,7 +2868,7 @@ PROG_1 low and PROG_3 low chooses esc 2</text>
 <label x="137.16" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWDIO_3" class="0">
+<net name="SWDIO_3" class="1">
 <segment>
 <pinref part="U$4" gate="G$1" pin="P$21"/>
 <wire x1="312.42" y1="43.18" x2="325.12" y2="43.18" width="0.1524" layer="91"/>

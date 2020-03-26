@@ -5928,6 +5928,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="gpio" width="0.2032" drill="0">
+</class>
+<class number="2" name="micro_power" width="0.8128" drill="0">
+</class>
+<class number="3" name="pi_power" width="1.778" drill="0">
+</class>
+<class number="4" name="thruster_power" width="5.08" drill="0">
+</class>
 </classes>
 <designrules name="ECE_Senior_Design *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
@@ -6417,13 +6425,11 @@ Please make sure your boards conform to these design rules.
 <polygon width="0.4064" layer="1" isolate="0.762" rank="2">
 <vertex x="-1.524" y="26.416"/>
 <vertex x="12.192" y="26.416"/>
-<vertex x="12.827" y="27.051"/>
 <vertex x="13.843" y="28.067"/>
 <vertex x="13.843" y="32.893"/>
 <vertex x="22.479" y="41.529"/>
 <vertex x="22.479" y="51.181"/>
 <vertex x="23.495" y="52.197"/>
-<vertex x="26.035" y="52.197"/>
 <vertex x="41.275" y="52.197"/>
 <vertex x="42.545" y="53.467"/>
 <vertex x="42.545" y="58.42"/>
@@ -6437,7 +6443,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="J5" pad="2"/>
 <contactref element="J5" pad="1"/>
 </signal>
-<signal name="+3V3">
+<signal name="+3V3" class="2">
 <contactref element="U$2" pad="P$G"/>
 <contactref element="U$2" pad="P$H"/>
 <contactref element="U$2" pad="P$V"/>
@@ -6548,7 +6554,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="34.418" y1="73.914" x2="35.179" y2="73.914" width="0.508" layer="1"/>
 <wire x1="35.179" y1="73.914" x2="35.179" y2="73.151" width="0.508" layer="1"/>
 </signal>
-<signal name="CAN_H">
+<signal name="CAN_H" class="1">
 <contactref element="U$2" pad="P$6"/>
 <contactref element="U$3" pad="P$6"/>
 <contactref element="U$4" pad="P$6"/>
@@ -6599,7 +6605,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="74.803" y1="64.135" x2="74.422" y2="63.754" width="0.2032" layer="1"/>
 <wire x1="74.422" y1="63.754" x2="74.295" y2="63.754" width="0.2032" layer="1"/>
 </signal>
-<signal name="CAN_L">
+<signal name="CAN_L" class="1">
 <contactref element="U$2" pad="P$7"/>
 <contactref element="U$3" pad="P$7"/>
 <contactref element="U$4" pad="P$7"/>
@@ -6646,7 +6652,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="44.958" y1="12.192" x2="44.577" y2="12.573" width="0.254" layer="16"/>
 <wire x1="44.958" y1="12.192" x2="45.339" y2="12.573" width="0.254" layer="16"/>
 </signal>
-<signal name="+5V">
+<signal name="+5V" class="3">
 <contactref element="U$1" pad="22"/>
 <contactref element="U$1" pad="23"/>
 <contactref element="U$1" pad="24"/>
@@ -6695,7 +6701,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="81.775" y1="61.582" x2="81.775" y2="69.469" width="1.778" layer="16"/>
 <wire x1="81.775" y1="69.469" x2="78.275" y2="69.469" width="1.778" layer="16"/>
 </signal>
-<signal name="PROG_1">
+<signal name="PROG_1" class="1">
 <contactref element="U1" pad="P$1"/>
 <contactref element="U$2" pad="P$5"/>
 <wire x1="33.4744" y1="54.61" x2="32.258" y2="55.8264" width="0.2032" layer="16"/>
@@ -6713,7 +6719,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="32.258" y1="58.801" x2="32.258" y2="59.055" width="0.2032" layer="16"/>
 <wire x1="32.004" y1="59.055" x2="32.258" y2="58.801" width="0.2032" layer="16"/>
 </signal>
-<signal name="PROG_2">
+<signal name="PROG_2" class="1">
 <contactref element="U$3" pad="P$5"/>
 <wire x1="74.93" y1="54.61" x2="73.787" y2="55.753" width="0.2032" layer="16"/>
 <wire x1="73.787" y1="58.039" x2="73.787" y2="55.753" width="0.2032" layer="16"/>
@@ -6732,7 +6738,7 @@ Please make sure your boards conform to these design rules.
 <via x="50.292" y="67.056" extent="1-16" drill="0.35"/>
 <wire x1="66.548" y1="60.325" x2="66.548" y2="65.532" width="0.2032" layer="16"/>
 </signal>
-<signal name="PROG_3">
+<signal name="PROG_3" class="1">
 <contactref element="U$4" pad="P$5"/>
 <wire x1="17.78" y1="75.057" x2="94.107" y2="75.057" width="0.2032" layer="16"/>
 <wire x1="94.107" y1="75.057" x2="108.458" y2="75.057" width="0.2032" layer="16"/>
@@ -6750,7 +6756,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="17.808" y1="75.029" x2="17.78" y2="75.057" width="0.2032" layer="1"/>
 <via x="17.78" y="75.057" extent="1-16" drill="0.35"/>
 </signal>
-<signal name="SWDIO_IN">
+<signal name="SWDIO_IN" class="1">
 <contactref element="U1" pad="P$4"/>
 <wire x1="34.925" y1="67.437" x2="38.989" y2="67.437" width="0.2032" layer="16"/>
 <wire x1="38.989" y1="67.437" x2="40.64" y2="69.088" width="0.2032" layer="16"/>
@@ -6761,7 +6767,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="31.808" y1="72.136" x2="31.808" y2="70.554" width="0.2032" layer="16"/>
 <wire x1="31.808" y1="70.554" x2="34.925" y2="67.437" width="0.2032" layer="16"/>
 </signal>
-<signal name="SWCLK_IN">
+<signal name="SWCLK_IN" class="1">
 <contactref element="U1" pad="P$7"/>
 <wire x1="44.45" y1="67.437" x2="44.45" y2="65.405" width="0.2032" layer="1"/>
 <via x="44.45" y="65.405" extent="1-16" drill="0.35"/>
@@ -6770,7 +6776,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="J3" pad="7"/>
 <wire x1="28.308" y1="72.136" x2="33.515" y2="66.929" width="0.2032" layer="16"/>
 </signal>
-<signal name="NRST">
+<signal name="NRST" class="1">
 <contactref element="U$2" pad="P$20"/>
 <contactref element="U$4" pad="P$20"/>
 <contactref element="U$3" pad="P$20"/>
@@ -6791,7 +6797,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="28.702" y1="59.896" x2="28.702" y2="68.242" width="0.2032" layer="16"/>
 <wire x1="36.195" y1="59.055" x2="35.941" y2="58.801" width="0.2032" layer="1"/>
 </signal>
-<signal name="SWDIO_1">
+<signal name="SWDIO_1" class="1">
 <contactref element="U1" pad="P$3"/>
 <contactref element="U$2" pad="P$21"/>
 <wire x1="38.5544" y1="57.15" x2="38.5544" y2="64.8434" width="0.2032" layer="16"/>
@@ -6799,7 +6805,7 @@ Please make sure your boards conform to these design rules.
 <via x="39.37" y="65.659" extent="1-16" drill="0.35"/>
 <wire x1="39.37" y1="65.659" x2="39.37" y2="67.437" width="0.2032" layer="1"/>
 </signal>
-<signal name="SWDIO_MUX2">
+<signal name="SWDIO_MUX2" class="1">
 <contactref element="U1" pad="P$2"/>
 <contactref element="U2" pad="P$4"/>
 <wire x1="38.1" y1="67.437" x2="38.1" y2="68.072" width="0.2032" layer="1"/>
@@ -6812,7 +6818,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="50.673" y1="73.787" x2="87.503" y2="73.787" width="0.2032" layer="1"/>
 <wire x1="87.503" y1="73.787" x2="89.789" y2="71.501" width="0.2032" layer="1"/>
 </signal>
-<signal name="SWCLK_1">
+<signal name="SWCLK_1" class="1">
 <contactref element="U1" pad="P$6"/>
 <contactref element="U$2" pad="P$22"/>
 <wire x1="41.0944" y1="57.15" x2="41.0944" y2="64.2084" width="0.2032" layer="16"/>
@@ -6821,7 +6827,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="43.18" y1="66.294" x2="43.18" y2="67.437" width="0.2032" layer="1"/>
 <wire x1="41.0944" y1="64.2084" x2="42.418" y2="65.532" width="0.2032" layer="16"/>
 </signal>
-<signal name="SWCLK_MUX2">
+<signal name="SWCLK_MUX2" class="1">
 <contactref element="U1" pad="P$5"/>
 <contactref element="U2" pad="P$7"/>
 <wire x1="99.314" y1="67.564" x2="99.314" y2="68.707" width="0.2032" layer="1"/>
@@ -6838,7 +6844,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="94.107" y1="69.215" x2="98.806" y2="69.215" width="0.2032" layer="16"/>
 <via x="98.806" y="69.215" extent="1-16" drill="0.35"/>
 </signal>
-<signal name="SWCLK_2">
+<signal name="SWCLK_2" class="1">
 <contactref element="U$3" pad="P$22"/>
 <contactref element="U2" pad="P$5"/>
 <wire x1="96.774" y1="67.564" x2="96.774" y2="66.04" width="0.2032" layer="1"/>
@@ -6849,7 +6855,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="83.947" y1="58.801" x2="82.55" y2="57.404" width="0.2032" layer="16"/>
 <wire x1="82.55" y1="57.404" x2="82.55" y2="57.15" width="0.2032" layer="16"/>
 </signal>
-<signal name="SWCLK_3">
+<signal name="SWCLK_3" class="1">
 <contactref element="U$4" pad="P$22"/>
 <contactref element="U2" pad="P$6"/>
 <wire x1="123.65" y1="57.15" x2="123.65" y2="60.246" width="0.2032" layer="1"/>
@@ -6858,7 +6864,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="118.11" y1="65.786" x2="98.679" y2="65.786" width="0.2032" layer="1"/>
 <wire x1="98.679" y1="65.786" x2="98.044" y2="66.421" width="0.2032" layer="1"/>
 </signal>
-<signal name="SWDIO_2">
+<signal name="SWDIO_2" class="1">
 <contactref element="U$3" pad="P$21"/>
 <contactref element="U2" pad="P$2"/>
 <wire x1="92.964" y1="67.564" x2="92.964" y2="65.151" width="0.2032" layer="1"/>
@@ -6868,7 +6874,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="82.55" y1="59.69" x2="80.01" y2="57.15" width="0.2032" layer="16"/>
 <wire x1="90.678" y1="59.69" x2="82.55" y2="59.69" width="0.2032" layer="16"/>
 </signal>
-<signal name="SWDIO_3">
+<signal name="SWDIO_3" class="1">
 <contactref element="U$4" pad="P$21"/>
 <contactref element="U2" pad="P$3"/>
 <wire x1="121.11" y1="57.15" x2="121.11" y2="61.643" width="0.2032" layer="1"/>
