@@ -549,7 +549,7 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="ESC_to_Backplane_Connectors">
 <packages>
-<package name="ESC2BACKPLANE_WHOLE">
+<package name="ESC2BACKPLANE_WHOLE" urn="urn:adsk.eagle:footprint:23140555/1">
 <pad name="P$C" x="5.08" y="-1.27" drill="1" rot="R90"/>
 <pad name="P$D" x="7.62" y="-1.27" drill="1" rot="R90"/>
 <pad name="P$E" x="10.16" y="-1.27" drill="1" rot="R90"/>
@@ -604,8 +604,23 @@ DIN A4, landscape with location and doc. field</description>
 <pad name="P$16" x="3.81" y="34.29" drill="1" rot="R90"/>
 <pad name="P$1" x="1.27" y="31.75" drill="1" rot="R90"/>
 <pad name="P$15" x="1.27" y="34.29" drill="1" rot="R90"/>
+<wire x1="-1.524" y1="2.54" x2="-1.524" y2="-2.50825" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-2.54" x2="34.544" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="2.54" x2="34.544" y2="2.54" width="0.127" layer="21"/>
+<wire x1="34.544" y1="2.54" x2="34.544" y2="-2.50825" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="35.56" x2="-0.254" y2="30.51175" width="0.127" layer="21"/>
+<wire x1="33.274" y1="35.56" x2="33.274" y2="30.51175" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="35.56" x2="33.274" y2="35.56" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="30.48" x2="33.274" y2="30.48" width="0.127" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="ESC2BACKPLANE_WHOLE" urn="urn:adsk.eagle:package:23140560/3" type="model">
+<packageinstances>
+<packageinstance name="ESC2BACKPLANE_WHOLE"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="ESC2BACKPLANE_KEY">
 <wire x1="-10.16" y1="30.48" x2="12.7" y2="30.48" width="0.254" layer="94"/>
@@ -738,6 +753,9 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$2" pin="P$Y" pad="P$Y"/>
 <connect gate="G$2" pin="P$Z" pad="P$Z"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23140560/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1469,9 +1487,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="U$1" library="ET60S-02-24-02-X-VP-GP" deviceset="ET60S-02-24-02-X-VP-GP" device="" package3d_urn="urn:adsk.eagle:package:23038846/2"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="U$2" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device=""/>
-<part name="U$3" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device=""/>
-<part name="U$4" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device=""/>
+<part name="U$2" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device="" package3d_urn="urn:adsk.eagle:package:23140560/3"/>
+<part name="U$3" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device="" package3d_urn="urn:adsk.eagle:package:23140560/3"/>
+<part name="U$4" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device="" package3d_urn="urn:adsk.eagle:package:23140560/3"/>
 <part name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
 <part name="H2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
 <part name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
